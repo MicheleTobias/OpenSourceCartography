@@ -13,10 +13,14 @@ Original source for FOSS4G location information: https://wiki.osgeo.org/wiki/FOS
 
 Other potential data sources for your maps: [Michele's List of Data Sources](https://docs.google.com/spreadsheets/d/1964wpzdUZJElZ7xsF740BMiLcTtga82jEOnkHF7wyHU/edit?usp=sharing)
 
+## Graphical Plan
+Downloads --> Learn Inkscape --> Work in QGIS --> Cartography in Inkscape
+
+                 Inkscape for Markers  --^
 ## Outline
 1. Getting Started
    1. Forking the repository to get the data
-   1. Download: QGIS (2.18), Inkscape
+   1. Software: QGIS (2.18), Inkscape (0.92)
   
 1. Intro to Inkscape - demo & follow-along
    1. Concept of vectors 
@@ -28,4 +32,4 @@ Other potential data sources for your maps: [Michele's List of Data Sources](htt
    1. Styling in QGIS: 
       1. Projection
       2. Vector styles 
-      3. Custome Markers with Inkscape
+      3. Custom Markers with Inkscape

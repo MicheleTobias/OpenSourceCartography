@@ -12,3 +12,13 @@ Data to use in this workshop: [FOSS4G Locations (GeoJSON)](https://github.com/Mi
 Original source for FOSS4G location information: https://wiki.osgeo.org/wiki/FOSS4G
 
 Other potential data sources for your maps: [Michele's List of Data Sources](https://docs.google.com/spreadsheets/d/1964wpzdUZJElZ7xsF740BMiLcTtga82jEOnkHF7wyHU/edit?usp=sharing)
+
+## Outline
+1. Getting Started
+  a. Forking the repository to get the data
+1. Intro to Inkscape - demo & follow-along
+  a. Concept of vectors 
+  b. Review concepts from FOSS4G NA talk 2016
+2. Working in QGIS
+  a. Import data: FOSS4G Locations, Natural Earth, whatever else you want
+  b. Styling

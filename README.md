@@ -15,11 +15,17 @@ Other potential data sources for your maps: [Michele's List of Data Sources](htt
 
 ## Outline
 1. Getting Started
-  a. Forking the repository to get the data
-  b. Download: QGIS (2.18), Inkscape
+   1. Forking the repository to get the data
+   1. Download: QGIS (2.18), Inkscape
+  
 1. Intro to Inkscape - demo & follow-along
-  a. Concept of vectors 
-  b. Review concepts from FOSS4G NA talk 2016
+   1. Concept of vectors 
+   1. Review concepts from FOSS4G NA talk 2016
+  
 2. Working in QGIS
-  a. Import data: FOSS4G Locations, Natural Earth, whatever else you want
-  b. Styling
+   1. Import data: FOSS4G Locations, Natural Earth, whatever else you want
+   1. Data Processing: make a line from the points w/ Points2One plugin
+   1. Styling in QGIS: 
+      1. Projection
+      2. Vector styles 
+      3. Custome Markers with Inkscape

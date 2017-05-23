@@ -16,6 +16,7 @@ Other potential data sources for your maps: [Michele's List of Data Sources](htt
 ## Outline
 1. Getting Started
   a. Forking the repository to get the data
+  b. Download: QGIS (2.18), Inkscape
 1. Intro to Inkscape - demo & follow-along
   a. Concept of vectors 
   b. Review concepts from FOSS4G NA talk 2016

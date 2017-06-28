@@ -33,3 +33,9 @@ Downloads --> Learn Inkscape --> Work in QGIS --> Cartography in Inkscape
       1. Projection
       2. Vector styles 
       3. Custom Markers with Inkscape
+   1. Export to SVG
+      
+1. Finishing Details in Inkscape
+   1. Ungroup
+   1. Move similar vectors pieces into individual layers (example: all labels into one layer, all point markers into another)
+   1. Clip anything that didn't clip correctly in the QGIS export

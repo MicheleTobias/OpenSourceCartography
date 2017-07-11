@@ -22,7 +22,7 @@ Downloads --> Learn Inkscape --> Work in QGIS --> Cartography in Inkscape
    1. Software: QGIS (2.18), Inkscape (0.92)
    1. Forking the repository to get the data
   
-1. Intro to Inkscape - demo & follow-along
+1. Intro to Inkscape
    1. Demonstration: You Already Know This! 
    1. Hands-On: Make a Pin Icon in Inkscape
   
@@ -51,7 +51,7 @@ Fork this repository to get the data using whatever tool you like.  **OR** if yo
   1. Pick the "Download ZIP" option, then save it where you want it.  Don't forget to unzip it.
 
   
-## Intro to Inkscape - demo & follow-along
+## Intro to Inkscape
 ### Demonstration: You Already Know This!
    1. Concept of vectors (points, lines, polygons) vs. rasters (images)
    1. Window Overview

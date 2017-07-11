@@ -39,3 +39,50 @@ Downloads --> Learn Inkscape --> Work in QGIS --> Cartography in Inkscape
    1. Ungroup
    1. Move similar vectors pieces into individual layers (example: all labels into one layer, all point markers into another)
    1. Clip anything that didn't clip correctly in the QGIS export
+   
+## Getting Started
+   1. Forking the repository to get the data
+   1. Software: QGIS (2.18), Inkscape (0.92)
+  
+## Intro to Inkscape - demo & follow-along
+### Demonstration: You Already Know This!
+   1. Concept of vectors (points, lines, polygons) vs. rasters (images)
+   1. Window Overview
+   1. GIS-Similar Concepts
+       1. Merge/Clip/Union/Etc.
+       1. Layers
+       1. Fill & Stroke = Symbology
+       
+### Hands-On: Make a Pin Icon in Inkscape
+Let's learn to use Inkscape while making something we can use later: an icon to represent a point.  I'll walk you through how to make a map pin icon, but feel free to make your own version!  *Something to remember: SAVE OFTEN! Just like GIS, vector illustration programs can be a little unstable. Save every time you think you might want to.*
+
+Open Inkscape.
+
+Draw a Circle.
+* Fill & Stroke
+
+Draw a skinny, tall rectangle.
+* Fill & Stroke
+
+Make a shine on the circle & rectangle.
+* Fill & Stroke
+
+Final adjustments: round the rectangle
+
+Adjust the page size.
+
+Save.
+  
+## Working in QGIS
+   1. Import data: FOSS4G Locations, Natural Earth, whatever else you want
+   1. Data Processing: make a line from the points w/ Points2One plugin
+   1. Styling in QGIS: 
+      1. Projection
+      2. Vector styles 
+      3. Custom Markers with Inkscape
+   1. Export to SVG
+      
+## Finishing Details in Inkscape
+   1. Ungroup
+   1. Move similar vectors pieces into individual layers (example: all labels into one layer, all point markers into another)
+   1. Clip anything that didn't clip correctly in the QGIS export

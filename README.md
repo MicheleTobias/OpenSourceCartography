@@ -19,12 +19,12 @@ Downloads --> Learn Inkscape --> Work in QGIS --> Cartography in Inkscape
                  Inkscape for Markers  --^
 ## Outline
 1. Getting Started
-   1. Forking the repository to get the data
    1. Software: QGIS (2.18), Inkscape (0.92)
+   1. Forking the repository to get the data
   
 1. Intro to Inkscape - demo & follow-along
-   1. Concept of vectors 
-   1. Review concepts from FOSS4G NA talk 2016
+   1. Demonstration: You Already Know This! 
+   1. Hands-On: Make a Pin Icon in Inkscape
   
 2. Working in QGIS
    1. Import data: FOSS4G Locations, Natural Earth, whatever else you want
@@ -41,8 +41,15 @@ Downloads --> Learn Inkscape --> Work in QGIS --> Cartography in Inkscape
    1. Clip anything that didn't clip correctly in the QGIS export
    
 ## Getting Started
-   1. Forking the repository to get the data
-   1. Software: QGIS (2.18), Inkscape (0.92)
+You should already have installed:
+* QGIS (2.18)
+* Inkscape (0.92)
+
+Fork this repository to get the data using whatever tool you like.  **OR** if you're not set up for git, you can download a zip file of all the material by:
+  1. Go to the [top of this GitHub repository](https://github.com/MicheleTobias/OpenSourceCartography)
+  1. Click on the big green "Clone or Download" button.
+  1. Pick the "Download ZIP" option, then save it where you want it.  Don't forget to unzip it.
+
   
 ## Intro to Inkscape - demo & follow-along
 ### Demonstration: You Already Know This!

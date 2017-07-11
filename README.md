@@ -67,6 +67,8 @@ Draw a skinny, tall rectangle.
 Make a shine on the circle & rectangle.
 * Fill & Stroke
 
+Arrange & Allign Tool: line them up
+
 Final adjustments: round the rectangle
 
 Adjust the page size.

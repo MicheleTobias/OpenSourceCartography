@@ -63,12 +63,20 @@ Fork this repository to get the data using whatever tool you like.  **OR** if yo
 ### Hands-On: Make a Pin Icon in Inkscape
 Let's learn to use Inkscape while making something we can use later: an icon to represent a point.  I'll walk you through how to make a map pin icon, but feel free to make your own version!  *Something to remember: SAVE OFTEN! Just like GIS, vector illustration programs can be a little unstable. Save every time you think you might want to.*
 
-Open Inkscape.
+Open Inkscape.  Let's learn a little about the interface.
+![Inkscape Interface Tour](/Images/InkscapeTour.png)
 
-Draw a Circle.
-* Fill & Stroke
+There are a lot of toolbars.  Here's a cheatsheet for the main ones:
+![Toolbars Cheatsheet](/Images/Toolbars.png)
+I'll assume you can use this image to help you locate tools.  If I don't explain how to find a tool, use this image to help you find it in the interface.
 
-Draw a skinny, tall rectangle.
+Draw a Circle in the middle of your canvas using the Cirlce & Elipse tool.  Hold down Ctrl while drawing your circle to make a perfect circle (instead of an elipse which is longer in one dimension).
+![Draw a Circle](/Images/Pin_1_Circle.png)
+
+Select your cirle with the Select & Transform Objects tool (it looks like a black arrow) and then Open the Fill & Stroke dialog.  You can set the fill & stroke either in this dialog or on the pallette at the bottom of the screen. Set the fill to an orange color and the stroke to a darker orange.
+![Make the Circle Orange](/Images/Pin__OrangeCircle.png)
+
+Now use the rectangle tool to draw a skinny, tall rectangle.
 * Fill & Stroke
 
 Make a shine on the circle & rectangle.

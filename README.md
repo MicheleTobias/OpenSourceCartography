@@ -74,7 +74,7 @@ Draw a Circle in the middle of your canvas using the Cirlce & Elipse tool.  Hold
 ![Draw a Circle](/Images/Pin_1_Circle.png)
 
 Select your cirle with the Select & Transform Objects tool (it looks like a black arrow) and then Open the Fill & Stroke dialog.  You can set the fill & stroke either in this dialog or on the pallette at the bottom of the screen. Set the fill to an orange color and the stroke to a darker orange.
-![Make the Circle Orange](/Images/Pin__OrangeCircle.png)
+![Make the Circle Orange](/Images/Pin_2_OrangeCircle.png)
 
 Now use the rectangle tool to draw a skinny, tall rectangle.
 * Fill & Stroke

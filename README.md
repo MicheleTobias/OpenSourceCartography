@@ -94,10 +94,23 @@ Looking better!  But the rectangle should really be underneath the circle.  Sele
 
 ![Change the order](/Images/Pin_6_Order.png)
 
-round the rectangle: type: Rectangle at bottom of the screen, object to path, node tool, curve segment, handles
+We could use our drawing just the way it is, but let's add a few more elements to make it look more realistic and to learn a few more tools.  First, let's give the pin's stem some dimension by rounding the end of the rectangle.  Select the rectangle and read the text at the bottom of the screen: "**Rectangle** in layer **Layer 1**."  This tells us that the type of object we've selected is a rectangle.  To edit the rectangle more than just changing it's size, we'll need to turn it into a Path.  With the rectangle selected, click the Path menu at the top of the screen and select "Object to Path".  Select the Node Editing tool ![Node Tool](/Images/Tool_Node.PNG), then click on the rectangle.  You should see that each corner now has a little diamond-shaped node.  
+
+![Nodes Active](/Images/Pin_7_NodesActive.PNG)
+
+With the node tool still active, click on the line segment between the bottom two nodes. The two bottom nodes will be highlighted to show they are selected (they turn blue on my personal computer, but that might vary depending on operating system and such).
+
+![Selected Nodes](/Images/Pin_8_SelectedNodes.PNG)
+
+The tool menu above your canvas has changed to show tools relevant to working with nodes.  Click the button to "Make Selected Segments Curves" ![Curve Segements Tool](/Images/Tool_CurveSegement.PNG).  Little circles will appear to indicate the Bezier curve handles, but they are hard to see since they are inline with the bottom of the rectangle.  Zooming in with the zoom settings in the lower right corner of the screen can help.  Click one handle and drag it to see how it affects the line segment.  Adjust both handles to make a relatively symetrical curve at the bottom of your pin.
+
+![Curve Handles](/Images/Pin_9_CurveHandles.PNG)
+
+Finally, let's make the pin look shiny.  This will be a good opportunity to test out some of the things you've learned.
 
 Make a shine on the circle & rectangle.
 * Fill & Stroke
+
 
 Arrange & Allign Tool: line them up
 

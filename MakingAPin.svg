@@ -30,7 +30,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.6"
      inkscape:cx="359.18664"
-     inkscape:cy="210.2753"
+     inkscape:cy="683.71007"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -63,5 +63,11 @@
        cx="109.71975"
        cy="116.81369"
        r="63.372608" />
+    <path
+       style="fill:#ffccaa;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 57.050781,107.16146 C 72.033818,85.582033 88.00008,70.024857 106.49479,69.954428 L 89.792968,60.197917 C 65.069699,77.261534 60.597649,92.2587 57.050781,107.16146 Z"
+       id="path4503"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
   </g>
 </svg>

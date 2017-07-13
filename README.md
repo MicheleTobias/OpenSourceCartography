@@ -118,7 +118,7 @@ And add some shine to the pin stem with a smaller rectangle of a lighter gray on
 
 ![All Done](/Images/Pin_12_Finished.png)
 
-Adjust the page size: In the File menu, click on Document Properties.  In the Custom Size section, expand the "Resize page to content..." section by clicking on the little + sign.  Make sure nothing in your drawing is selected by clicking in a blank space.  Click the "Resize page to drawing or selection".  The page boundary should now hug the edge of your drawing.  Save one final time and you'll be ready to use your new pin marker in QGIS!  Save.
+Adjust the page size: In the File menu, click on Document Properties.  In the Custom Size section, expand the "Resize page to content..." section by clicking on the little + sign.  Make sure nothing in your drawing is selected by clicking in a blank space.  Click the "Resize page to drawing or selection" button.  The page boundary should now hug the edge of your drawing.  Save one final time and you'll be ready to use your new pin marker in QGIS!
 
   
 ## Working in QGIS

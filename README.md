@@ -106,7 +106,15 @@ The tool menu above your canvas has changed to show tools relevant to working wi
 
 ![Curve Handles](/Images/Pin_9_CurveHandles.PNG)
 
-Finally, let's make the pin look shiny.  This will be a good opportunity to test out some of the things you've learned.
+Finally, let's make the pin look shiny.  This will be a good opportunity to test out some of the things you've learned.  Using the Pen (Bezier Curve) Tool ![Pen Tool](/Images/Tool_Bezier.PNG), draw an elongated triangle along the upper left side of the pin - one click for each corner of the triangle and a final 4th click on the first corner to close up the polygon.  Select your new triangle with the selection tool (the arrow) to make it active, then change the fill to a light orange.  You can either remove the stroke or set it to the same light orange color.
+
+![Triangle Shine](/Images/Pin_10_TriangleShine.PNG)
+
+Using the Node Tool like before, round the two longer sides to make the pin look curved.
+
+![Curved Triangle](/Images/Pin_11_CurvedTriangle.PNG)
+
+
 
 Make a shine on the circle & rectangle.
 * Fill & Stroke

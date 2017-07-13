@@ -70,19 +70,19 @@ There are a lot of toolbars.  Here's a cheatsheet for the main ones:
 ![Toolbars Cheatsheet](/Images/Toolbars.png)
 I'll assume you can use this image to help you locate tools.  If I don't explain how to find a tool, use this image to help you find it in the interface.
 
-Draw a Circle in the middle of your canvas using the Cirlce & Elipse tool. ![Circle Tool](/Images/Tool_Circle.png)  Hold down Ctrl while drawing your circle to make a perfect circle (instead of an elipse which is longer in one dimension).
+Draw a Circle in the middle of your canvas using the Cirlce & Elipse tool. ![Circle Tool](/Images/Tool_Circle.PNG)  Hold down Ctrl while drawing your circle to make a perfect circle (instead of an elipse which is longer in one dimension).
 
 ![Draw a Circle](/Images/Pin_1_Circle.png)
 
-Select your cirle with the Select & Transform Objects tool ![Select Tool](/Images/Tool_Select.png) and then Open the Fill & Stroke dialog. ![Fill and Stroke Dialog](/Images/Tool_FillStroke.png)  You can set the fill & stroke either in this dialog or on the pallette at the bottom of the screen. Set the fill to an orange color and the stroke to a darker orange.
+Select your cirle with the Select & Transform Objects tool ![Select Tool](/Images/Tool_Select.PNG) and then Open the Fill & Stroke dialog. ![Fill and Stroke Dialog](/Images/Tool_FillStroke.PNG)  You can set the fill & stroke either in this dialog or on the pallette at the bottom of the screen. Set the fill to an orange color and the stroke to a darker orange.
 
 ![Make the Circle Orange](/Images/Pin_2_OrangeCircle.png)
 
-Now use the rectangle tool ![Rectangle Tool](/Images/Tool_Rectangle.png) to draw a skinny, tall rectangle. Make the fill a medium gray and the stroke a dark gray.
+Now use the rectangle tool ![Rectangle Tool](/Images/Tool_Rectangle.PNG) to draw a skinny, tall rectangle. Make the fill a medium gray and the stroke a dark gray.
 
 ![Add a Gray Rectangle](/Images/Pin_3_Rectangle.png)
 
-Before this will look like a pin at all, we need to do some arranging. Open the Align & Distribute dialog. ![Align Tool](/Images/Tool_Align.png) Select your circle with the Select tool, then hold down Shift and select the rectangle.  Change the drop-down in the Align dialog to "First Selected" and the click the button to "Center on Vertical Axis" (hover over the buttons to get a tool tip with the name of the buttons).  Now your rectangle should be in the middle of your circle.
+Before this will look like a pin at all, we need to do some arranging. Open the Align & Distribute dialog. ![Align Tool](/Images/Tool_Align.PNG) Select your circle with the Select tool, then hold down Shift and select the rectangle.  Change the drop-down in the Align dialog to "First Selected" and the click the button to "Center on Vertical Axis" (hover over the buttons to get a tool tip with the name of the buttons).  Now your rectangle should be in the middle of your circle.
 
 ![Align objects](/Images/Pin_4_Align.png)
 
@@ -90,7 +90,7 @@ You'll probably want to move the rectangle so it's near the bottom of the circle
 
 ![Align objects](/Images/Pin_5_Move.png)
 
-Looking better!  But the rectangle should really be underneath the circle.  Select the rectangle.  On the left side above the canvas, you'll see that the tool bar has options to raise and lower items relative to each other.  Use "Lower Selection to Bottom" to put the rectangle below the circle. ![Send to Back Tool](/Images/Tool_SendToBack.png)  Now it's really starting to look like a pin!
+Looking better!  But the rectangle should really be underneath the circle.  Select the rectangle.  On the left side above the canvas, you'll see that the tool bar has options to raise and lower items relative to each other.  Use "Lower Selection to Bottom" to put the rectangle below the circle. ![Send to Back Tool](/Images/Tool_SendToBack.PNG)  Now it's really starting to look like a pin!
 
 ![Change the order](/Images/Pin_6_Order.png)
 

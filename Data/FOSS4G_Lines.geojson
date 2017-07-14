@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "FOSS4G_Lines",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Event": "FOSS4G 2017", "Location": "Boston, USA", "City": "Boston", "Country": "USA", "Number of": "upcoming", "Latitude": 42.3601, "Longitude": -71.0589, "Year": 2017 }, "geometry": { "type": "LineString", "coordinates": [ [ 11.1217, 46.0748 ], [ -93.09, 44.9537 ], [ -75.6972, 45.4215 ], [ 100.5018, 13.7563 ], [ -93.265, 44.9778 ], [ 6.6323, 46.5197 ], [ -123.3656, 48.4284 ], [ 18.4241, -33.9249 ], [ 151.2093, -33.8688 ], [ 2.1734, 41.3851 ], [ -104.9903, 39.7392 ], [ 116.4074, 39.9042 ], [ 1.1581, 52.9548 ], [ -122.6765, 45.5231 ], [ 126.978, 37.5665 ], [ 7.0982, 50.7374 ], [ -71.0589, 42.3601 ] ] } }
+]
+}

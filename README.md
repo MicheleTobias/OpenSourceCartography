@@ -122,7 +122,12 @@ Adjust the page size: In the File menu, click on Document Properties.  In the Cu
 
   
 ## Working in QGIS
-   1. Import data: FOSS4G Locations, Natural Earth, whatever else you want
+Open QGIS
+
+Import the vector data you would like to work with.  
+* From this repository:FOSS4G Locations (locations of all of the FOSS4G conferences), either the FOSS4G_Lines (straight lines between the conference locations) or FOSS4G_GreatCircles (great circle lines between the locations). 
+* From the internet: Natural Earth country boundaries and whatever else you want.
+
    1. Data Processing: make a line from the points w/ Points2One plugin
    1. Styling in QGIS: 
       1. Projection

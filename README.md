@@ -119,16 +119,19 @@ Adjust the page size: In the File menu, click on Document Properties.  In the Cu
 ## Working in QGIS
 Open QGIS
 
+### Load Data
 Import the vector data you would like to work with.  
-* From this repository:FOSS4G Locations (locations of all of the FOSS4G conferences), either the FOSS4G_Lines (straight lines between the conference locations) or FOSS4G_GreatCircles (great circle lines between the locations). 
+* From this repository: FOSS4G Locations (locations of all of the FOSS4G conferences), either the FOSS4G_Lines (straight lines between the conference locations) or FOSS4G_GreatCircles (great circle lines between the locations). 
 * From the internet: Natural Earth country boundaries and whatever else you want.
 
-   1. Data Processing: make a line from the points w/ Points2One plugin
-   1. Styling in QGIS: 
-      1. Projection
-      2. Vector styles 
-      3. Custom Markers with Inkscape
-   1. Export to SVG
+### Styling in QGIS
+I will assume you know how to change the colors of vector data in QGIS, so we won't go over that.  Instead, we'll focus on using custom SVG markers built in Inkscape.
+
+Use the pin marker
+
+Make & use the rope segment.
+
+Export to SVG
       
 ## Finishing Details in Inkscape
    1. Ungroup

@@ -20,19 +20,14 @@ Downloads --> Learn Inkscape --> Work in QGIS --> Cartography in Inkscape
 ## Outline
 1. Getting Started
    1. Software: QGIS (2.18), Inkscape (0.92)
-   1. Forking the repository to get the data
+   1. Get the data
   
 1. Intro to Inkscape
    1. Demonstration: You Already Know This! 
    1. Hands-On: Make a Pin Icon in Inkscape
   
 2. Working in QGIS
-   1. Import data: FOSS4G Locations, Natural Earth, whatever else you want
-   1. Data Processing: make a line from the points w/ Points2One plugin
-   1. Styling in QGIS: 
-      1. Projection
-      2. Vector styles 
-      3. Custom Markers with Inkscape
+   1. Use Custom Markers with Inkscape
    1. Export to SVG
       
 1. Finishing Details in Inkscape

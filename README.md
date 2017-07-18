@@ -160,7 +160,7 @@ At this point, you'll want to get an idea of what your final map will look like.
 
 Using the Map Composer, create a layout that generally looks the way you want it to.  Visit the [QGIS Training Manual](http://docs.qgis.org/2.14/en/docs/training_manual/map_composer/index.html) for a refresher on using the Map Composer.  Set the extent and scale of the map to roughly what you anticipate needing for the final product.  When in doubt, pick a larger scale (more zoomed out) because we can always trim away extra, but we can't add it back easily in Inkscape later.
 
-When you've got the layout generally how you want it, click the "Export to SVG" button.  Ignore the warning.  You'll see what the warning is talking about soon, but it's not really a problem... and perhaps it's even a feature once you know how to deal with it.
+When you've got the layout generally how you want it, click the "Export to SVG" button.  ![Export to SVG Button](/Images/Tool_ExportToSVG.PNG)  Ignore the warning.  You'll see what the warning is talking about soon, but it's not really a problem... and perhaps it's even a feature once you know how to deal with it.
       
 ## Finishing Details in Inkscape
    1. Ungroup

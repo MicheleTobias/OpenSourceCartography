@@ -121,15 +121,17 @@ Open QGIS
 
 ### Load Data
 Import the vector data you would like to work with.  
-* From this repository: FOSS4G Locations (locations of all of the FOSS4G conferences), either the FOSS4G_Lines (straight lines between the conference locations) or FOSS4G_GreatCircles (great circle lines between the locations). 
-* From the internet: Natural Earth country boundaries and whatever else you want.
+* From this repository's [data folder](/Data): FOSS4G_Locations.geojson (locations of all of the FOSS4G conferences) and either the FOSS4G_Lines.geojson (straight lines between the conference locations) or FOSS4G_GreatCircles.geojson (great circle lines between the locations). 
+* From the internet: [Natural Earth](http://naturalearthdata.com/) country boundaries at small or medium scale and any other data you would like to add to your map.
+
+Order your layers with the countries on the bottom, then the lines, and points on top.
 
 ### Styling in QGIS
 I will assume you know how to change the colors of vector data in QGIS, so we won't go over that.  Instead, we'll focus on using custom SVG markers built in Inkscape.
 
 Use the pin marker
 
-Make & use the rope segment
+Make & use the rope segment: You can also use SVG markers for lines!
 
 Get everything into the canvas you think you'll need
 

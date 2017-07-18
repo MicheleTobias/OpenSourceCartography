@@ -126,17 +126,21 @@ Import the vector data you would like to work with.
 
 Order your layers with the countries on the bottom, then the lines, and points on top.
 
-![QGIS Layers Loaded](/Images/QGIS_1_LayersLoade.PNG)
+![QGIS Layers Loaded](/Images/QGIS_1_LayersLoaded.PNG)
 
 
 ### Styling in QGIS
 I will assume you know how to change the colors of vector data in QGIS, so we won't go over that.  Instead, we'll focus on using custom SVG markers built in Inkscape.
 
-Let's use the pin marker we made earlier!  Open the layer properties for the point layer and click on the Style tab on the left side of the window.  In the main part of the properties window, you'll see that your point layer was set by default to a "simple marker".  Click on the "Simple Marker" text in the white box to access options for changing the marker type.  In the "Symbol layer type" drop down, select "SVG marker".  You will probably need to scroll down to see the SVG Groups and SVG Images section of the dialog.  Click the "..." button and navigate to where you saved your pin SVG file.  Select your file and click the "open" button.  (Alternatively you can put it in your User Symbols folder for QGIS to see it in the User Symbols SVG Group tree.)  The marker preview at the top of the window should have changed to a pin.  Click "Apply" to see how it looks on your map.  Adjust the size of your pin marker to any size you like.  You can always make adjustments later.  Click "OK" to exit the dialog.
+Let's use the pin marker we made earlier: 
+1. Open the layer properties for the point layer and click on the Style tab on the left side of the window.  
+1. In the main part of the properties window, you'll see that your point layer was set by default to a "simple marker".  Click on the "Simple Marker" text in the white box to access options for changing the marker type.  
+1. In the "Symbol layer type" drop down, select "SVG marker".  You will probably need to scroll down to see the SVG Groups and SVG Images section of the dialog.  Click the "..." button and navigate to where you saved your pin SVG file.  Select your file and click the "open" button.  (Alternatively you can put it in your User Symbols folder for QGIS to see it in the User Symbols SVG Group tree.)  The marker preview at the top of the window should have changed to a pin.  
+1. Click "Apply" to see how it looks on your map.  Adjust the size of your pin marker to any size you like.  You can always make adjustments later.  Click "OK" to exit the dialog.
 
-![Point Marker Dialog](/Images/QGIS_2_PointMarkeDialog.PNG)
+![Point Marker Dialog](/Images/QGIS_2_PointMarkerDialog.PNG)
 
-![Pins on the Map](/Images/QGIS_2_PinsApplied.PNG)
+![Pins on the Map](/Images/QGIS_3_PinsApplied.PNG)
 
 Make & use the rope segment: You can also use SVG markers for lines!
 

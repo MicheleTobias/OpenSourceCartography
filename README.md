@@ -143,7 +143,18 @@ Let's use the pin marker we made earlier:
 
 ![Pins on the Map](/Images/QGIS_3_PinsApplied.PNG)
 
-Make & use the rope segment: You can also use SVG markers for lines!
+You can also use SVG markers for lines.  The process is similar to what you just did with your point markers: make the SVG marker in Inkscape, load it into QGIS in the layer properties dialog, and set some parameters.  To save some time, I pre-made an SVG for you to try with your lines layer that looks like a single twist of rope.  You can use this to make your line look like string.
+1. Find the Rope_Segment.svg file in the [Pre-Made SVGs Folder](/Pre-Made_SVGs) of this repository.  You'll also see that there's a pin svg in case you want to see what my version looks like.  Alternatively, you can make your own rope segment in Inkscape using the skills you just learned with the Pen Tool and Node Editor to make a similar shape.  The key to success is to make sure the left and right side of the shape fit together well when the image is repeated next to each other.  It's fiddly so I made one for you.
+1. Open the Layer Properties dialog for the lines layer and go to the Style tab, just like before.
+1. In the white box, click on the "Simple line" text.
+1. In the "Symbol layer type" drop-down menu, pick "Marker line".  Notice that you have a longer tree of layers in the white box.
+1. In the white box, click the "Simple marker" text.
+1. Change the "Symbol layer type" drop-down menu selection to "SVG marker".
+1. Similar to what we did before, use the "..." button to open the dialog to find and select your Rope_Segment.svg and click the "Open" button.  It may be hard to see since the rope segment colors are similar to the dialog box, but you should see what looks like a tan dashed line in the preview.
+1. Adjust the size of the segments in the "Size" parameter box.  For now, pick something like 4 milimeters to be able to see the segments.  They don't fit together yet, but we'll fix that next.
+1. Up at the top of the dialog, in the white box, click on the "Marker line" text.  The radio button next to "with interval" should be selected.  Change the spacing to make no space between the segments. 1.6 milimeters worked for me.  Apply these changes to the canvas with the "Apply" button.  If you like what you see, click "OK" to close the dialog, otherwise, make some more adjustments.  NOTE: A similar process to what we just did can also be done in Inkscape, but it tends to work better on gentle curves.
+
+![String Lines](/Images/QGIS_4_String.PNG)
 
 Get everything into the canvas you think you'll need
 

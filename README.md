@@ -122,7 +122,7 @@ Open QGIS
 ### Load Data
 Import the vector data you would like to work with.  
 * From this repository's [data folder](/Data): FOSS4G_Locations.geojson (locations of all of the FOSS4G conferences) and either the FOSS4G_Lines.geojson (straight lines between the conference locations) or FOSS4G_GreatCircles.geojson (great circle lines between the locations). 
-* From the internet: [Natural Earth](http://naturalearthdata.com/) country boundaries at small or medium scale and any other data you would like to add to your map.
+* From the internet: [Natural Earth Country' 1:110m Cultural Admin-0 Country Boundaries](http://www.naturalearthdata.com/downloads/110m-cultural-vectors) and any other data you would like to add to your map (such as the Admin-1 States & Provinces Natural Earth data).
 
 Order your layers with the countries on the bottom, then the lines, and points on top.
 

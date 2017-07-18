@@ -129,7 +129,11 @@ I will assume you know how to change the colors of vector data in QGIS, so we wo
 
 Use the pin marker
 
-Make & use the rope segment.
+Make & use the rope segment
+
+Get everything into the canvas you think you'll need
+
+Map Composer
 
 Export to SVG
       

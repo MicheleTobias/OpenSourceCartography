@@ -152,15 +152,15 @@ You can also use SVG markers for lines.  The process is similar to what you just
 1. Change the "Symbol layer type" drop-down menu selection to "SVG marker".
 1. Similar to what we did before, use the "..." button to open the dialog to find and select your Rope_Segment.svg and click the "Open" button.  It may be hard to see since the rope segment colors are similar to the dialog box, but you should see what looks like a tan dashed line in the preview.
 1. Adjust the size of the segments in the "Size" parameter box.  For now, pick something like 4 milimeters to be able to see the segments.  They don't fit together yet, but we'll fix that next.
-1. Up at the top of the dialog, in the white box, click on the "Marker line" text.  The radio button next to "with interval" should be selected.  Change the spacing to make no space between the segments. 1.6 milimeters worked for me.  Apply these changes to the canvas with the "Apply" button.  If you like what you see, click "OK" to close the dialog, otherwise, make some more adjustments.  NOTE: A similar process to what we just did can also be done in Inkscape, but it tends to work better on gentle curves.
+1. Up at the top of the dialog, in the white box, click on the "Marker line" text.  The radio button next to "with interval" should be selected.  Change the spacing to make no space between the segments. 1.6 milimeters worked for me.  Apply these changes to the canvas with the "Apply" button.  If you like what you see, click "OK" to close the dialog, otherwise, make some more adjustments.  NOTE: A process similar to what we just did [can also be done in Inkscape](https://inkscapetutorials.org/2014/10/20/use-inkscape-to-draw-vector-rope-in-any-shape/), but it tends to work better on gentle curves.  We can use this idea later.
 
 ![String Lines](/Images/QGIS_4_String.PNG)
 
-Get everything into the canvas you think you'll need
+At this point, you'll want to get an idea of what your final map will look like.  Do you want to label the locations?  Do you want lines for states and provinces?  Get everything into the canvas you think you'll need for your final map.  It doesn't have to look nice at all yet, but unless you want to add it by hand later, you'll want to put it in now.
 
-Map Composer
+Using the Map Composer, create a layout that generally looks the way you want it to.  Visit the [QGIS Training Manual](http://docs.qgis.org/2.14/en/docs/training_manual/map_composer/index.html) for a refresher on using the Map Composer.  Set the extent and scale of the map to roughly what you anticipate needing for the final product.  When in doubt, pick a larger scale (more zoomed out) because we can always trim away extra, but we can't add it back easily in Inkscape later.
 
-Export to SVG
+When you've got the layout generally how you want it, click the "Export to SVG" button.  Ignore the warning.  You'll see what the warning is talking about soon, but it's not really a problem... and perhaps it's even a feature once you know how to deal with it.
       
 ## Finishing Details in Inkscape
    1. Ungroup

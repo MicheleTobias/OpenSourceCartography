@@ -183,7 +183,7 @@ Your map may look a little rough right now.  Mine, for example, has text running
 
 Before we can edit anything, we'll need to ungroup the big single group: Using the Select Tool ![Select Tool](/Images/Tool_Select.PNG), click on some part of the drawing on your canvas.  Look at the bottom of the window and verify that you've selected a group.  The text on the bottom of the window will say something like "Group of 15000 objects in root".  Now ungroup using the Ungroup tool ![Ungroup Tool](/Images/Tool_Ungroup.PNG).  It may take a while for this process to finish because we have so many nodes.  Save.
 
-**Layers**  Another helpful feature of Inkscape is the ability to put items into different layers.  This concept is very similar to what you're already familiar with in GIS.  Layers higher in the list sit on top of layers that are 
+**Layers**  Another helpful feature of Inkscape is the ability to put items into different layers.  This concept is very similar to what you're already familiar with in GIS.  Layers higher in the list sit on top of layers that are lower in the list.
 
    1. Ungroup
    1. Move similar vectors pieces into individual layers (example: all labels into one layer, all point markers into another)

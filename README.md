@@ -158,7 +158,13 @@ You can also use SVG markers for lines.  The process is similar to what you just
 
 At this point, you'll want to get an idea of what your final map will look like.  Do you want to label the locations?  Do you want lines for states and provinces?  Get everything into the canvas you think you'll need for your final map.  It doesn't have to look nice at all yet, but unless you want to add it by hand later, you'll want to put it in now.
 
-Using the Map Composer, create a layout that generally looks the way you want it to.  Visit the [QGIS Training Manual](http://docs.qgis.org/2.14/en/docs/training_manual/map_composer/index.html) for a refresher on using the Map Composer.  Set the extent and scale of the map to roughly what you anticipate needing for the final product.  When in doubt, pick a larger scale (more zoomed out) because we can always trim away extra, but we can't add it back easily in Inkscape later.
+Helpful Links:
+* [Multiline Labels in QGIS](https://anitagraser.com/2011/06/15/multi-line-labels-in-qgis/) from Anita Graser
+* [QGIS Training Manual Print Composer Tutorial](http://docs.qgis.org/2.14/en/docs/training_manual/map_composer/index.html)
+
+Using the Map Composer, create a layout that generally looks the way you want it to.  Set the extent and scale of the map to roughly what you anticipate needing for the final product.  When in doubt, pick a larger scale (more zoomed out) because we can always trim away extra, but we can't add it back easily in Inkscape later.
+
+![QGIS Print Composer](/Images/QGIS_5_MapComposer.PNG)
 
 When you've got the layout generally how you want it, click the "Export to SVG" button.  ![Export to SVG Button](/Images/Tool_ExportToSVG.PNG)  Ignore the warning.  You'll see what the warning is talking about soon, but it's not really a problem... and perhaps it's even a feature once you know how to deal with it.
       

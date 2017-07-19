@@ -175,9 +175,15 @@ Now we're ready to start refining this map in Inkscape!
 Open your map file in Inkscape:
 1. Start Inkscape
 1. File menu -> Open
-1. Navigate to your file and then clikc "Open"
+1. Navigate to your file and then click "Open"
 
 Your map may look a little rough right now.  Mine, for example, has text running off the page and the colors are not probably going to stay the way they are.  That's ok.  Now's a good time though to think again about if there's anything else you'd like to add.  It's easier to make a new file in the QGIS Print Composer now than to try to add things later.
+
+**Grouping**  Grouping ![Group Tool](/Images/Tool_Group.PNG) and ungrouping ![Ungroup Tool](/Images/Tool_Ungroup.PNG) are useful tools.  Grouping objects allows you to treat multiple objects as one until they are ungrouped.  Typically, .svg files exported from QGIS have all of the vectors grouped into one massive group with subgroups.  
+
+Before we can edit anything, we'll need to ungroup the big single group: Using the Select Tool ![Select Tool](/Images/Tool_Select.PNG), click on some part of the drawing on your canvas.  Look at the bottom of the window and verify that you've selected a group.  The text on the bottom of the window will say something like "Group of 15000 objects in root".  Now ungroup using the Ungroup tool ![Ungroup Tool](/Images/Tool_Ungroup.PNG).  It may take a while for this process to finish because we have so many nodes.  Save.
+
+**Layers**  Another helpful feature of Inkscape is the ability to put items into different layers.  This concept is very similar to what you're already familiar with in GIS.  Layers higher in the list sit on top of layers that are 
 
    1. Ungroup
    1. Move similar vectors pieces into individual layers (example: all labels into one layer, all point markers into another)

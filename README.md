@@ -166,7 +166,9 @@ Using the Map Composer, create a layout that generally looks the way you want it
 
 ![QGIS Print Composer](/Images/QGIS_5_MapComposer.PNG)
 
-When you've got the layout generally how you want it, click the "Export to SVG" button.  ![Export to SVG Button](/Images/Tool_ExportToSVG.PNG)  Ignore the warning.  You'll see what the warning is talking about soon, but it's not really a problem... and perhaps it's even a feature once you know how to deal with it.
+When you've got the layout generally how you want it, click the "Export to SVG" button.  ![Export to SVG Button](/Images/Tool_ExportToSVG.PNG) Ignore the warning.  (You'll see what the warning is talking about soon, but it's not really a problem... and perhaps it's even a feature once you know how to deal with it.)  Navigate to where you want to save your file, name it, and click the "Save" button.  Uncheck "Export map layers as groups" and "Render map labels as outlines", then click "Save".  
+
+Now we're ready to start refining this map in Inkscape!
       
 ## Finishing Details in Inkscape
    1. Ungroup

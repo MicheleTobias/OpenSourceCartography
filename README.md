@@ -171,6 +171,14 @@ When you've got the layout generally how you want it, click the "Export to SVG" 
 Now we're ready to start refining this map in Inkscape!
       
 ## Finishing Details in Inkscape
+
+Open your map file in Inkscape:
+1. Start Inkscape
+1. File menu -> Open
+1. Navigate to your file and then clikc "Open"
+
+Your map may look a little rough right now.  Mine, for example, has text running off the page and the colors are not probably going to stay the way they are.  That's ok.  Now's a good time though to think again about if there's anything else you'd like to add.  It's easier to make a new file in the QGIS Print Composer now than to try to add things later.
+
    1. Ungroup
    1. Move similar vectors pieces into individual layers (example: all labels into one layer, all point markers into another)
    1. Clip anything that didn't clip correctly in the QGIS export

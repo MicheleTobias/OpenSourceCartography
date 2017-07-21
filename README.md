@@ -190,8 +190,17 @@ Let's make that first layer to hold everything until we decide to move it:
 1. Click the + button to add a layer.  A pop-up will ask you what you want to call it.  I like to call mine something like "Everything Else" since I'll be moving some items out but maybe not everything.
 1. Nothing is in this layer yet, so let's move all the items in the canvas into it. Select everything with either Ctrl + a on the keyboard or "Select All" from the Edit menu.  Right click on any item, and select "Move to layer" from the menu that comes up.  This option can also be found in the Layer menu at the top of the screen.  Pick the layer you want to move the items to - in this case "Everything Else" - and click the "Move" button.  Inkscape may take a minute to finish this process.  Save when it's done.  You can confirm that the items have moved into this layer by click on the the button that looks like a tiny eye to turn off the visibility.  If everything disappears, it moved.  Turn it back on, and everything should be visible again.
 
-Add layers as you need them.  Right now, similar things tend to be grouped.  You can easily select all of the country polygons right now because they are in one group.  It's easy to move them into their own layer right now.  Once they are ungrouped, if you don't want to have to select them all individually, there's a handy trick: Right click on one of the items and click "Select Same" from the menu that appears.  Pick the option that will select all of the similar items.  For example, my country polygons all have the same fill.  Once they are all selected, you can move them into a new layer.
+Add layers as you need them.  Right now, similar things tend to be grouped because that's how QGIS exports them.  For example, you can easily select all of the country polygons right now because they are in one group, which makes it easy to move them into their own layer right now.  Once they are ungrouped, if you don't want to have to select them all individually, there's a handy trick: Right click on one of the items and click "Select Same" from the menu that appears.  Pick the option that will select all of the similar items.  For example, my country polygons all have the same fill.  Once they are all selected, you can move them into a new layer.
 
-   1. Ungroup
-   1. Move similar vectors pieces into individual layers (example: all labels into one layer, all point markers into another)
+**Text**
+Edit text
+
+**Other Things to Consider** 
+* Move your labels around so you can see them all clearly
+* You might need to move some of your pin markers to make them move visible (the pins in the US' midwest are almost on top of each other).
+
+To Add:
+   1. Text
    1. Clip anything that didn't clip correctly in the QGIS export
+   1. Export options: .png
+   1. Export vs. Save As

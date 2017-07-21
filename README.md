@@ -192,7 +192,13 @@ Let's make that first layer to hold everything until we decide to move it:
 
 Add layers as you need them.  Right now, similar things tend to be grouped because that's how QGIS exports them.  For example, you can easily select all of the country polygons right now because they are in one group, which makes it easy to move them into their own layer right now.  Once they are ungrouped, if you don't want to have to select them all individually, there's a handy trick: Right click on one of the items and click "Select Same" from the menu that appears.  Pick the option that will select all of the similar items.  For example, my country polygons all have the same fill.  Once they are all selected, you can move them into a new layer.
 
-![Layers](/Images/Inkscape_1_Layers1.PNG] ![Layers](/Images/Inkscape_1_Layers2.PNG] ![Layers](/Images/Inkscape_1_Layers3.PNG] ![Layers](/Images/Inkscape_1_Layers4.PNG]
+![Layers](/Images/Inkscape_1_Layers1.PNG] 
+
+![Layers](/Images/Inkscape_1_Layers2.PNG] 
+
+![Layers](/Images/Inkscape_1_Layers3.PNG] 
+
+![Layers](/Images/Inkscape_1_Layers4.PNG]
 
 **Text**
 Edit text

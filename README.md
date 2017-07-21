@@ -179,6 +179,8 @@ Open your map file in Inkscape:
 
 Your map may look a little rough right now.  Mine, for example, has text running off the page and the colors are not probably going to stay the way they are.  That's ok.  Now's a good time though to think again about if there's anything else you'd like to add.  It's easier to make a new file in the QGIS Print Composer now than to try to add things later.
 
+Unlike the previous sections of this workshop, finishing your map in Inkscape doesn't have a prescribed set of steps.  Next we'll go through some tools and suggestions for how they can help, but how you apply them and the order in which you apply them is largely up to you and your artistic sensibilities.
+
 **Grouping**  Grouping ![Group Tool](/Images/Tool_Group.PNG) and ungrouping ![Ungroup Tool](/Images/Tool_Ungroup.PNG) are useful tools.  Grouping objects allows you to treat multiple objects as one until they are ungrouped.  Typically, .svg files exported from QGIS have all of the vectors grouped into one massive group with subgroups.  
 
 Before we can edit anything, we'll need to ungroup the big single group: Using the Select Tool ![Select Tool](/Images/Tool_Select.PNG), click on some part of the drawing on your canvas.  Look at the bottom of the window and verify that you've selected a group.  The text on the bottom of the window will say something like "Group of 15000 objects in root".  Now ungroup using the Ungroup tool ![Ungroup Tool](/Images/Tool_Ungroup.PNG).  It may take a while for this process to finish because we have so many nodes.  Save.
@@ -201,14 +203,22 @@ Add layers as you need them.  Right now, similar things tend to be grouped becau
 ![Layers](/Images/Inkscape_1_Layers4.PNG)
 
 **Text**
-Edit text
+Fortunately now when you export .sgv files from QGIS, the labels now import into Inkscape as text.  Text, like polygons, in Inkscape can have both a fill and stroke (use the Fill & Stroke Tool ![Fill & Stroke](/Images/Tool_FillStroke.PNG)) and the text can be edited to make adjustments.  Be careful not to ungroup text.  If you ungroup text, it will turn into a path, which has advantages if you want to get creative, but you won't be able to change the letters by typing into a box any more.
+
+Edit existing text by selecting it and then opening the text dialog. ![Text Dialog](/Images/Tool_TextDialog.PNG)
+
+Add new text by using the text tool. ![Add Text](/Images/Tool_Text.PNG)  Text you might want to add to your map includes things like a title, cartographer information, data credit, and maybe some information about the points.
+
+**Clip**
+Clip is helpful for dealing with those polygons that didn't get clipped properly in the QGIS export.  You'll find the Clip tool in the Object menu at the top of the screen.  Select the item or group of items you want to clip, along with the polygon you want to clip with, the set the clip.  One of the nice things about Clip in Inkscape is that you can set and release it, so if you need to make adjustments later, undo it by releasing your clip.
 
 **Other Things to Consider** 
 * Move your labels around so you can see them all clearly
 * You might need to move some of your pin markers to make them move visible (the pins in the US' midwest are almost on top of each other).
 
-To Add:
-   1. Text
-   1. Clip anything that didn't clip correctly in the QGIS export
-   1. Export options: .png
-   1. Export vs. Save As
+**Export**
+When you're all done, you'll want to save your map in an image format.
+
+In the File menu at the top of the screen, you'll find the "Export PNG Image" option.  In this dialog you have choices about what part of the drawing to export (the extent of the page, the extent of selected objects, etc.).  Pay attention to this because if you have something selected, it might assume you want to use this extent for your export.
+
+Another option for different file types is the "Save As" option in the File menu.  There are a multitude of options here including PDF.

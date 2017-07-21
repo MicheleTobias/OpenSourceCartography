@@ -215,6 +215,7 @@ Add new text by using the text tool. ![Add Text](/Images/Tool_Text.PNG)  Text yo
 Clip is helpful for dealing with those polygons that didn't get clipped properly in the QGIS export.  You'll find the Clip tool in the Object menu at the top of the screen.  Select the item or group of items you want to clip, along with the polygon you want to clip with, the set the clip.  One of the nice things about Clip in Inkscape is that you can set and release it, so if you need to make adjustments later, undo it by releasing your clip.
 
 **Copy & Paste**
+
 It might seem obvious that you can copy, cut, and paste in Inkscape (of course you can!) but there's also specialized options in the File menu for graphics that you won't find in other programs:
 * "Paste in Place" - File menu or Keyboard Shortcut: Ctrl + Alt + v - paste an object copied to the clipboard in exactly the same place that it was copied from.  I use it for making halos around text.  Copy the text, paste it in place, make the copy white (or the color you want), give it a blur in the Fill & Stroke dialog, then lower it below your regular text.
 * "Paste Style" - File menu
@@ -233,3 +234,4 @@ When you're all done, you'll want to save your map in an image format.
 In the File menu at the top of the screen, you'll find the "Export PNG Image" option.  In this dialog you have choices about what part of the drawing to export (the extent of the page, the extent of selected objects, etc.).  Pay attention to this because if you have something selected, it might assume you want to use this extent for your export.
 
 Another option for different file types is the "Save As" option in the File menu.  There are a multitude of options here including PDF.
+

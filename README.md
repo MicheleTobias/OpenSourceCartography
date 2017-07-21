@@ -214,6 +214,14 @@ Add new text by using the text tool. ![Add Text](/Images/Tool_Text.PNG)  Text yo
 
 Clip is helpful for dealing with those polygons that didn't get clipped properly in the QGIS export.  You'll find the Clip tool in the Object menu at the top of the screen.  Select the item or group of items you want to clip, along with the polygon you want to clip with, the set the clip.  One of the nice things about Clip in Inkscape is that you can set and release it, so if you need to make adjustments later, undo it by releasing your clip.
 
+**Copy & Paste**
+It might seem obvious that you can copy, cut, and paste in Inkscape (of course you can!) but there's also specialized options in the File menu for graphics that you won't find in other programs:
+* "Paste in Place" - File menu or Keyboard Shortcut: Ctrl + Alt + v - paste an object copied to the clipboard in exactly the same place that it was copied from.  I use it for making halos around text.  Copy the text, paste it in place, make the copy white (or the color you want), give it a blur in the Fill & Stroke dialog, then lower it below your regular text.
+* "Paste Style" - File menu
+* "Paste Size" - File menu - has a variety of options for which dimension to paste
+* You can also paste a color into either the Fill or Stroke of an object either by copying it from Inkscape or using a tool like the [Colorzilla](http://www.colorzilla.com/) extension for Chrome and Firefox.
+* Use the Eyedropper tool to select a color on your canvas to automatically copy into the Fill or Stroke (hold shift when you click)
+
 **Other Things to Consider** 
 * Move your labels around so you can see them all clearly
 * You might need to move some of your pin markers to make them move visible (the pins in the US' midwest are almost on top of each other).

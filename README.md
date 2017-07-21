@@ -216,7 +216,7 @@ Clip is helpful for dealing with those polygons that didn't get clipped properly
 
 **Copy & Paste**
 
-It might seem obvious that you can copy, cut, and paste in Inkscape (of course you can!) but there's also specialized options in the File menu for graphics that you won't find in other programs:
+It might seem obvious that you can copy, cut, and paste in Inkscape (of course you can!) but there's also specialized options for graphics that you won't find in other programs:
 * "Paste in Place" - File menu or Keyboard Shortcut: Ctrl + Alt + v - paste an object copied to the clipboard in exactly the same place that it was copied from.  I use it for making halos around text.  Copy the text, paste it in place, make the copy white (or the color you want), give it a blur in the Fill & Stroke dialog, then lower it below your regular text.
 * "Paste Style" - File menu
 * "Paste Size" - File menu - has a variety of options for which dimension to paste
@@ -226,6 +226,8 @@ It might seem obvious that you can copy, cut, and paste in Inkscape (of course y
 **Other Things to Consider** 
 * Move your labels around so you can see them all clearly
 * You might need to move some of your pin markers to make them move visible (the pins in the US' midwest are almost on top of each other).
+* Maybe your strings need a drop shadow. (Group all your segments, then Filters menu -> Glows & Shadows -> Drop Shadow) 
+* Explore the Filters and Extensions menus.
 
 **Export**
 

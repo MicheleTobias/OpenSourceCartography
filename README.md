@@ -203,6 +203,7 @@ Add layers as you need them.  Right now, similar things tend to be grouped becau
 ![Layers](/Images/Inkscape_1_Layers4.PNG)
 
 **Text**
+
 Fortunately now when you export .sgv files from QGIS, the labels now import into Inkscape as text.  Text, like polygons, in Inkscape can have both a fill and stroke (use the Fill & Stroke Tool ![Fill & Stroke](/Images/Tool_FillStroke.PNG)) and the text can be edited to make adjustments.  Be careful not to ungroup text.  If you ungroup text, it will turn into a path, which has advantages if you want to get creative, but you won't be able to change the letters by typing into a box any more.
 
 Edit existing text by selecting it and then opening the text dialog. ![Text Dialog](/Images/Tool_TextDialog.PNG)
@@ -210,6 +211,7 @@ Edit existing text by selecting it and then opening the text dialog. ![Text Dial
 Add new text by using the text tool. ![Add Text](/Images/Tool_Text.PNG)  Text you might want to add to your map includes things like a title, cartographer information, data credit, and maybe some information about the points.
 
 **Clip**
+
 Clip is helpful for dealing with those polygons that didn't get clipped properly in the QGIS export.  You'll find the Clip tool in the Object menu at the top of the screen.  Select the item or group of items you want to clip, along with the polygon you want to clip with, the set the clip.  One of the nice things about Clip in Inkscape is that you can set and release it, so if you need to make adjustments later, undo it by releasing your clip.
 
 **Other Things to Consider** 
@@ -217,6 +219,7 @@ Clip is helpful for dealing with those polygons that didn't get clipped properly
 * You might need to move some of your pin markers to make them move visible (the pins in the US' midwest are almost on top of each other).
 
 **Export**
+
 When you're all done, you'll want to save your map in an image format.
 
 In the File menu at the top of the screen, you'll find the "Export PNG Image" option.  In this dialog you have choices about what part of the drawing to export (the extent of the page, the extent of selected objects, etc.).  Pay attention to this because if you have something selected, it might assume you want to use this extent for your export.

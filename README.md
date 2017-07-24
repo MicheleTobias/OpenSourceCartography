@@ -156,7 +156,7 @@ You can also use SVG markers for lines.  The process is similar to what you just
 
 ![String Lines](/Images/QGIS_4_String.PNG)
 
-At this point, you'll want to get an idea of what your final map will look like.  Do you want to label the locations?  Do you want lines for states and provinces?  Get everything into the canvas you think you'll need for your final map.  It doesn't have to look nice at all yet, but unless you want to add it by hand later, you'll want to put it in now.
+At this point, you'll want to get an idea of what your final map will look like.  Do you want to label the locations?  Do you want lines for states and provinces?  Maybe you want some city names?  Get everything into the canvas you think you'll need for your final map.  It doesn't have to look nice at all yet, but unless you want to add it by hand later, you'll want to put it in now.
 
 Helpful Links:
 * [Multiline Labels in QGIS](https://anitagraser.com/2011/06/15/multi-line-labels-in-qgis/) from Anita Graser
@@ -210,10 +210,6 @@ Edit existing text by selecting it and then opening the text dialog. ![Text Dial
 
 Add new text by using the text tool. ![Add Text](/Images/Tool_Text.PNG)  Text you might want to add to your map includes things like a title, cartographer information, data credit, and maybe some information about the points.
 
-**Clip**
-
-Clip is helpful for dealing with those polygons that didn't get clipped properly in the QGIS export.  You'll find the Clip tool in the Object menu at the top of the screen.  Select the item or group of items you want to clip, along with the polygon you want to clip with, the set the clip.  One of the nice things about Clip in Inkscape is that you can set and release it, so if you need to make adjustments later, undo it by releasing your clip.
-
 **Copy & Paste**
 
 It might seem obvious that you can copy, cut, and paste in Inkscape (of course you can!) but there's also specialized options for graphics that you won't find in other programs:
@@ -222,6 +218,12 @@ It might seem obvious that you can copy, cut, and paste in Inkscape (of course y
 * "Paste Size" - File menu - has a variety of options for which dimension to paste
 * You can also paste a color into either the Fill or Stroke of an object either by copying it from Inkscape or using a tool like the [Colorzilla](http://www.colorzilla.com/) extension for Chrome and Firefox.
 * Use the Eyedropper tool to select a color on your canvas to automatically copy into the Fill or Stroke (hold shift when you click)
+
+**Clip**
+
+Clip is helpful for dealing with those polygons that didn't get clipped properly in the QGIS export.  You'll find the Clip tool in the Object menu at the top of the screen.  Select the item or group of items you want to clip, along with the polygon you want to clip with, the set the clip.  One of the nice things about Clip in Inkscape is that you can set and release it, so if you need to make adjustments later, undo it by releasing your clip.
+
+Clip can also be used on images to cut out any polygon shape.  It works just like clipping a raster in a GIS.
 
 **Other Things to Consider** 
 * Move your labels around so you can see them all clearly

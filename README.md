@@ -156,7 +156,7 @@ You can also use SVG markers for lines.  The process is similar to what you just
 
 ![String Lines](/Images/QGIS_4_String.PNG)
 
-At this point, you'll want to get an idea of what your final map will look like.  Do you want to label the locations?  Do you want lines for states and provinces?  Maybe you want some city names?  Get everything into the canvas you think you'll need for your final map.  It doesn't have to look nice at all yet, but unless you want to add it by hand later, you'll want to put it in now.
+At this point, you'll want to get an idea of what your final map will look like.  I sometimes use a [Google Image](https://images.google.com) search to get some ideas.  For example, if you want to continue with the map pin board theme, try googling related keywords to see what kinds of map pin boards there are.  Do you want to label the locations?  Do you want lines for states and provinces?  Maybe you want some city names or graticule lines?  Get everything into the canvas you think you'll need for your final map.  It doesn't have to look nice at all yet, but unless you want to add it by hand later, you'll want to put it in now.
 
 Helpful Links:
 * [Multiline Labels in QGIS](https://anitagraser.com/2011/06/15/multi-line-labels-in-qgis/) from Anita Graser

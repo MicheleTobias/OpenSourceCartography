@@ -239,3 +239,8 @@ In the File menu at the top of the screen, you'll find the "Export PNG Image" op
 
 Another option for different file types is the "Save As" option in the File menu.  There are a multitude of options here including PDF.
 
+## Example
+
+Here's an example of a map I created with the same data you're working with.  I liked the idea of the textured string, but it was just too cluttered for my map, so I left it out.  I've included annotations on my map so you can learn how the effects were done.  None of it is fancy or difficult.  It's mostly just layering items.
+![Example Map with Annotations](/Images/PinMap_Annotations.png)
+

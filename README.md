@@ -14,26 +14,29 @@ Original source for FOSS4G location information: https://wiki.osgeo.org/wiki/FOS
 Other potential data sources for your maps: [Michele's List of Data Sources](https://docs.google.com/spreadsheets/d/1964wpzdUZJElZ7xsF740BMiLcTtga82jEOnkHF7wyHU/edit?usp=sharing)
 
 ## Graphical Plan
-Downloads --> Learn Inkscape --> Work in QGIS --> Cartography in Inkscape
+**Inkscape:** Make Map Symbols --> **QGIS:** Compose a Map --> **Inkscape:** Finishing, Design Work
 
-                 Inkscape for Markers  --^
 ## Outline
 1. Getting Started
-   1. Software: QGIS (2.18), Inkscape (0.92)
-   1. Get the data
   
 1. Intro to Inkscape
    1. Demonstration: You Already Know This! 
    1. Hands-On: Make a Pin Icon in Inkscape
   
 2. Working in QGIS
-   1. Use Custom Markers with Inkscape
+   1. Use Custom SVG Markers
    1. Export to SVG
       
 1. Finishing Details in Inkscape
-   1. Ungroup
-   1. Move similar vectors pieces into individual layers (example: all labels into one layer, all point markers into another)
-   1. Clip anything that didn't clip correctly in the QGIS export
+   1. Grouping
+   1. Layers
+   1. Text
+   1. Copy & Paste
+   1. Clip
+   1. Other Things to Consider
+   1. Export
+   
+1. Example Map
    
 ## Getting Started
 You should already have installed:
@@ -65,7 +68,7 @@ There are a lot of toolbars.  Here's a cheatsheet for the main ones:
 ![Toolbars Cheatsheet](/Images/Toolbars.png)
 I'll assume you can use this image to help you locate tools.  If I don't explain how to find a tool, use this image to help you find it in the interface.
 
-Draw a Circle in the middle of your canvas using the Cirlce & Elipse tool. ![Circle Tool](/Images/Tool_Circle.PNG)  Hold down Ctrl while drawing your circle to make a perfect circle (instead of an elipse which is longer in one dimension).  Save.
+Draw a circle in the middle of your canvas using the Cirlce & Elipse tool. ![Circle Tool](/Images/Tool_Circle.PNG)  Hold down Ctrl while drawing your circle to make a perfect circle (instead of an elipse which is longer in one dimension).  Save.
 
 ![Draw a Circle](/Images/Pin_1_Circle.png)
 
@@ -77,7 +80,7 @@ Now use the rectangle tool ![Rectangle Tool](/Images/Tool_Rectangle.PNG) to draw
 
 ![Add a Gray Rectangle](/Images/Pin_3_Rectangle.png)
 
-Before this will look like a pin at all, we need to do some arranging. Open the Align & Distribute dialog. ![Align Tool](/Images/Tool_Align.PNG) Select your circle with the Select tool, then hold down Shift and select the rectangle.  Change the drop-down in the Align dialog to "First Selected" and the click the button to "Center on Vertical Axis" (hover over the buttons to get a tool tip with the name of the buttons).  Now your rectangle should be in the middle of your circle.  Save.
+Before this will look like a pin at all, we need to do some arranging. Open the Align & Distribute dialog. ![Align Tool](/Images/Tool_Align.PNG) Select your circle with the Select tool, then hold down Shift and select the rectangle.  Now both the circle and rectangle are selected.  Change the drop-down in the Align dialog to "First Selected" and the click the button to "Center on Vertical Axis" (hover over the buttons to get a tool tip with the name of the buttons).  Now your rectangle should be in the middle of your circle.  Save.
 
 ![Align objects](/Images/Pin_4_Align.png)
 
@@ -85,7 +88,7 @@ You'll probably want to move the rectangle so it's near the bottom of the circle
 
 ![Align objects](/Images/Pin_5_Move.png)
 
-Looking better!  But the rectangle should really be underneath the circle.  Select the rectangle.  On the left side above the canvas, you'll see that the tool bar has options to raise and lower items relative to each other.  Use "Lower Selection to Bottom" to put the rectangle below the circle. ![Send to Back Tool](/Images/Tool_SendToBack.PNG)  Now it's really starting to look like a pin!  Save.
+Looking better!  But the rectangle should really be underneath the circle.  Select the rectangle.  On the left side above the canvas, you'll see that the tool bar has options to raise and lower items relative to each other.  Use "Lower Selection to Bottom" ![Send to Back Tool](/Images/Tool_SendToBack.PNG) to put the rectangle below the circle.  Now it's really starting to look like a pin!  Save.
 
 ![Change the order](/Images/Pin_6_Order.png)
 
@@ -101,7 +104,7 @@ The tool menu above your canvas has changed to show tools relevant to working wi
 
 ![Curve Handles](/Images/Pin_9_CurveHandles.PNG)
 
-Finally, let's make the pin look shiny.  This will be a good opportunity to test out some of the things you've learned.  Using the Pen (Bezier Curve) Tool ![Pen Tool](/Images/Tool_Bezier.PNG), draw an elongated triangle along the upper left side of the pin - one click for each corner of the triangle and a final 4th click on the first corner to close up the polygon.  Select your new triangle with the selection tool (the arrow) to make it active, then change the fill to a light orange.  You can either remove the stroke or set it to the same light orange color.  Save.
+Let's make the pin look shiny.  This will be a good opportunity to test out some of the things you've learned.  Using the Pen (Bezier Curve) Tool ![Pen Tool](/Images/Tool_Bezier.PNG), draw an elongated triangle along the upper left side of the pin - one click for each corner of the triangle and a final 4th click on the first corner to close up the polygon.  Select your new triangle with the selection tool (the arrow) to make it active, then change the fill to a light orange.  You can either remove the stroke or set it to the same light orange color.  Save.
 
 ![Triangle Shine](/Images/Pin_10_TriangleShine.PNG)
 
@@ -113,7 +116,7 @@ And add some shine to the pin stem with a smaller rectangle of a lighter gray on
 
 ![All Done](/Images/Pin_12_Finished.png)
 
-Adjust the page size: In the File menu, click on Document Properties.  In the Custom Size section, expand the "Resize page to content..." section by clicking on the little + sign.  Make sure nothing in your drawing is selected by clicking in a blank space.  Click the "Resize page to drawing or selection" button.  The page boundary should now hug the edge of your drawing.  Save one final time and you'll be ready to use your new pin marker in QGIS!
+Adjust the page size: In the File menu, click on Document Properties.  In the Custom Size section, expand the "Resize page to content..." section by clicking on the little + sign.  Make sure nothing in your drawing is selected by clicking in a blank space.  Click the "Resize page to drawing or selection" button.  The page boundary should now hug the edge of your drawing.  Save one final time, close Inkscape, and you'll be ready to use your new pin marker in QGIS!
 
   
 ## Working in QGIS
@@ -129,7 +132,7 @@ Order your layers with the countries on the bottom, then the lines, and points o
 ![QGIS Layers Loaded](/Images/QGIS_1_LayersLoaded.PNG)
 
 
-### Styling in QGIS
+### Use Custom SVG Markers in QGIS
 I will assume you know how to change the colors of vector data in QGIS, so we won't go over that.  Instead, we'll focus on using custom SVG markers built in Inkscape.
 
 Let's use the pin marker we made earlier: 
@@ -152,7 +155,7 @@ You can also use SVG markers for lines.  The process is similar to what you just
 1. Change the "Symbol layer type" drop-down menu selection to "SVG marker".
 1. Similar to what we did before, use the "..." button to open the dialog to find and select your Rope_Segment.svg and click the "Open" button.  It may be hard to see since the rope segment colors are similar to the dialog box, but you should see what looks like a tan dashed line in the preview.
 1. Adjust the size of the segments in the "Size" parameter box.  For now, pick something like 4 milimeters to be able to see the segments.  They don't fit together yet, but we'll fix that next.
-1. Up at the top of the dialog, in the white box, click on the "Marker line" text.  The radio button next to "with interval" should be selected.  Change the spacing to make no space between the segments. 1.6 milimeters worked for me.  Apply these changes to the canvas with the "Apply" button.  If you like what you see, click "OK" to close the dialog, otherwise, make some more adjustments.  NOTE: A process similar to what we just did [can also be done in Inkscape](https://inkscapetutorials.org/2014/10/20/use-inkscape-to-draw-vector-rope-in-any-shape/), but it tends to work better on gentle curves.  We can use this idea later.
+1. Up at the top of the dialog, in the white box, click on the "Marker line" text.  The radio button next to "with interval" should be selected.  Change the spacing to make no space between the segments. 1.6 milimeters worked for me.  Apply these changes to the canvas with the "Apply" button.  If you like what you see, click "OK" to close the dialog, otherwise, make some more adjustments.  NOTE: A process similar to what we just did [can also be done in Inkscape](https://inkscapetutorials.org/2014/10/20/use-inkscape-to-draw-vector-rope-in-any-shape/), but it tends to work better on gentle curves.
 
 ![String Lines](/Images/QGIS_4_String.PNG)
 
@@ -162,6 +165,7 @@ Helpful Links:
 * [Multiline Labels in QGIS](https://anitagraser.com/2011/06/15/multi-line-labels-in-qgis/) from Anita Graser
 * [QGIS Training Manual Print Composer Tutorial](http://docs.qgis.org/2.14/en/docs/training_manual/map_composer/index.html)
 
+## Export SVG
 Using the Map Composer, create a layout that generally looks the way you want it to.  Set the extent and scale of the map to roughly what you anticipate needing for the final product.  When in doubt, pick a larger scale (more zoomed out) because we can always trim away extra, but we can't add it back easily in Inkscape later.
 
 ![QGIS Print Composer](/Images/QGIS_5_MapComposer.PNG)
@@ -185,7 +189,7 @@ Unlike the previous sections of this workshop, finishing your map in Inkscape do
 
 Before we can edit anything, we'll need to ungroup the big single group: Using the Select Tool ![Select Tool](/Images/Tool_Select.PNG), click on some part of the drawing on your canvas.  Look at the bottom of the window and verify that you've selected a group.  The text on the bottom of the window will say something like "Group of 15000 objects in root".  Now ungroup using the Ungroup tool ![Ungroup Tool](/Images/Tool_Ungroup.PNG).  It may take a while for this process to finish because we have so many nodes.  Save.
 
-**Layers**  Another helpful feature of Inkscape is the ability to put items into different layers.  This concept is very similar to what you're already familiar with in GIS.  Layers higher in the list sit on top of layers that are lower in the list.  Layers can be turned on and off to limit what you see but also to reduce the loading time as you work on items in a different layer.  Usually .svg files saved from QGIS don't have any layers assigned.  I like to make a layer to start and move everything into this layer.  Then add more layers as needed to issolate different elements of my map.  For example, I typically put all the labels in one layer, all the country polygons in another, and the text and title in another.
+**Layers**  Another helpful feature of Inkscape is the ability to put items into different layers.  This concept is very similar to what you're already familiar with in GIS.  Layers higher in the list sit on top of layers that are lower in the list.  Layers can be turned on and off to limit what you see but also to reduce the loading time as you work on items in a different layer.  Usually .svg files saved from QGIS don't have any layers assigned.  I like to make one layer to start and move everything into this layer.  Then I add more layers as needed to issolate different elements of my map.  For example, I typically put all the labels in one layer, all the country polygons in another, and the text and title in another.
 
 Let's make that first layer to hold everything until we decide to move it:
 1. Open the Layers dialog. ![Layers Button](/Images/Tool_Layers.PNG)  If it docks to the side of the window and the dialog is too small, hover your mouse cursor over the bottom edge of the dialog below the Opacity slider to see the cursor that will let you click and drag to expand the window.
@@ -221,7 +225,7 @@ It might seem obvious that you can copy, cut, and paste in Inkscape (of course y
 
 **Clip**
 
-Clip is helpful for dealing with those polygons that didn't get clipped properly in the QGIS export.  You'll find the Clip tool in the Object menu at the top of the screen.  Select the item or group of items you want to clip, along with the polygon you want to clip with, the set the clip.  One of the nice things about Clip in Inkscape is that you can set and release it, so if you need to make adjustments later, undo it by releasing your clip.
+Clip is helpful for dealing with those polygons that didn't get clipped properly in the QGIS export.  You'll find the Clip tool in the Object menu at the top of the screen.  Select the item or group of items you want to clip, along with the polygon you want to clip with, then set the clip.  One of the nice things about Clip in Inkscape is that you can set and release it, so if you need to make adjustments later, undo it by releasing your clip.
 
 Clip can also be used on images to cut out any polygon shape.  It works just like clipping a raster in a GIS.
 

@@ -3,15 +3,15 @@
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
-  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="GeoForAll20170801124701860" source="C:\Users\mmtobias\Documents\GitHub\OpenSourceCartography\Data\GeoForAll.geojson" name="GeoForAll">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="GeoForAll20170801124701860" source="C:/Users/mmtobias/Documents/GitHub/OpenSourceCartography/Data/GeoForAll.geojson" name="GeoForAll">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="ne_110m_land20170801125021322" source="C:\Users\mmtobias\Documents\GIS_Data\NaturalEarth\ne_110m_land\ne_110m_land.shp" name="ne_110m_land">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="ne_110m_land20170801125021322" source="C:/Users/mmtobias/Documents/GIS_Data/NaturalEarth/ne_110m_land/ne_110m_land.shp" name="ne_110m_land">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="ne_110m_coastline20170801125255056" source="C:\Users\mmtobias\Documents\GIS_Data\NaturalEarth\ne_110m_coastline\ne_110m_coastline.shp" name="ne_110m_coastline">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="ne_110m_coastline20170801125255056" source="C:/Users/mmtobias/Documents/GIS_Data/NaturalEarth/ne_110m_coastline/ne_110m_coastline.shp" name="ne_110m_coastline">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -19,10 +19,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-189.00000001104527314</xmin>
-      <ymin>-89.84039196896269175</ymin>
-      <xmax>189.00000045285563033</xmax>
-      <ymax>87.87648419436494862</ymax>
+      <xmin>-33.74534161490674933</xmin>
+      <ymin>12.41143968030690203</ymin>
+      <xmax>58.39751552795041789</xmax>
+      <ymax>64.37435528132994023</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -59,9 +59,9 @@
         <legendlayerfile isInOverview="0" layerid="ne_110m_land20170801125021322" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_110m_coastline" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ne_110m_coastline" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="ne_110m_coastline20170801125255056" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="ne_110m_coastline20170801125255056" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -74,7 +74,7 @@
         <ymax>54.98681599999999747</ymax>
       </extent>
       <id>GeoForAll20170801124701860</id>
-      <datasource>../Data/GeoForAll.geojson</datasource>
+      <datasource>./Data/GeoForAll.geojson</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -146,7 +146,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="89,151,136,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./ShootingStar.svg"/>
+              <prop k="name" v="./Talk/Unicorn2.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -337,7 +337,6 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -363,7 +362,7 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="ID" index="0" name=""/>
         <alias field="ParticipatingOrg" index="1" name=""/>
@@ -382,11 +381,11 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;City&quot;" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="ID"/>
-          <column width="251" hidden="0" type="field" name="ParticipatingOrg"/>
-          <column width="379" hidden="0" type="field" name="City"/>
+          <column width="-1" hidden="0" type="field" name="ParticipatingOrg"/>
+          <column width="-1" hidden="0" type="field" name="City"/>
           <column width="-1" hidden="0" type="field" name="Country"/>
           <column width="-1" hidden="0" type="field" name="Continent"/>
           <column width="-1" hidden="0" type="field" name="CoordinatesLonLat"/>
@@ -395,15 +394,15 @@
           <column width="-1" hidden="0" type="field" name="field_9"/>
           <column width="-1" hidden="0" type="field" name="Contact names"/>
           <column width="-1" hidden="0" type="field" name="Contact emails"/>
-          <column width="163" hidden="0" type="field" name="ApplicationReceived"/>
+          <column width="-1" hidden="0" type="field" name="ApplicationReceived"/>
           <column width="-1" hidden="0" type="field" name="Notes"/>
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -446,14 +445,8 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "Contact names", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <extent>
-        <xmin>-180</xmin>
-        <ymin>-85.60903777459773778</ymin>
-        <xmax>180.00000044181038561</xmax>
-        <ymax>83.64512999999999465</ymax>
-      </extent>
       <id>ne_110m_coastline20170801125255056</id>
-      <datasource>../../../GIS_Data/NaturalEarth/ne_110m_coastline/ne_110m_coastline.shp</datasource>
+      <datasource>../../GIS_Data/NaturalEarth/ne_110m_coastline/ne_110m_coastline.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -733,7 +726,6 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -759,7 +751,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="scalerank" index="0" name=""/>
         <alias field="featurecla" index="1" name=""/>
@@ -767,17 +759,17 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="3014656">
         <columns>
           <column width="-1" hidden="0" type="field" name="scalerank"/>
           <column width="-1" hidden="0" type="field" name="featurecla"/>
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -816,7 +808,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>83.64513000000002307</ymax>
       </extent>
       <id>ne_110m_land20170801125021322</id>
-      <datasource>../../../GIS_Data/NaturalEarth/ne_110m_land/ne_110m_land.shp</datasource>
+      <datasource>../../GIS_Data/NaturalEarth/ne_110m_land/ne_110m_land.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -853,7 +845,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="209,209,209,255"/>
+              <prop k="color" v="255,255,255,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1041,7 +1033,6 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1067,7 +1058,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="featurecla" index="0" name=""/>
         <alias field="scalerank" index="1" name=""/>
@@ -1082,10 +1073,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1135,9 +1126,9 @@ def my_form_open(dialog, layer, feature):
     </Paths>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
     <WFSLayers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>

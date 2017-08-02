@@ -19,10 +19,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-189</xmin>
-      <ymin>-94.34112825000003966</ymin>
-      <xmax>189.00000000000011369</xmax>
-      <ymax>87.98625825000003431</ymax>
+      <xmin>-33.74534161490674933</xmin>
+      <ymin>12.41143968030690203</ymin>
+      <xmax>58.39751552795041789</xmax>
+      <ymax>64.37435528132994023</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -482,12 +482,12 @@ def my_form_open(dialog, layer, feature):
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
             <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
+              <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
+              <prop k="joinstyle" v="round"/>
               <prop k="line_color" v="215,238,244,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="4"/>
@@ -499,12 +499,12 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
             <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
+              <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
+              <prop k="joinstyle" v="round"/>
               <prop k="line_color" v="215,244,238,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="3"/>
@@ -516,12 +516,12 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
             <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
+              <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
+              <prop k="joinstyle" v="round"/>
               <prop k="line_color" v="255,246,213,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="2"/>
@@ -533,12 +533,12 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
             <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
+              <prop k="capstyle" v="round"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
+              <prop k="joinstyle" v="round"/>
               <prop k="line_color" v="238,200,200,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="1"/>

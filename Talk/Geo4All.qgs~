@@ -22,10 +22,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-189.00000001104527314</xmin>
-      <ymin>-89.84039196896269175</ymin>
-      <xmax>189.00000045285563033</xmax>
-      <ymax>87.87648419436494862</ymax>
+      <xmin>-130.22997250000000236</xmin>
+      <ymin>-36.09689250000000271</ymin>
+      <xmax>158.07367250000001491</xmax>
+      <ymax>55.12679250000000053</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -76,6 +76,12 @@
   </legend>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-123.36560000000000059</xmin>
+        <ymin>-33.92490000000000094</ymin>
+        <xmax>151.20930000000001314</xmax>
+        <ymax>52.95479999999999876</ymax>
+      </extent>
       <id>FOSS4G_Locations20170804093635063</id>
       <datasource>../Data/FOSS4G_Locations.geojson</datasource>
       <keywordList>
@@ -130,8 +136,8 @@
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
         <rules key="{9810a521-f1e2-4b86-b421-3fee119f24ff}">
           <rule filter=" &quot;Year&quot;  &lt;= 2005" key="{a2c597a5-0c20-41b6-95cc-6def745d92bf}" symbol="0"/>
-          <rule filter=" &quot;Year&quot;  >= 2006&#xd;&#xa; AND&#xd;&#xa;  &quot;Year&quot;  &lt;= 2009" key="{3bc1590c-e628-41d0-a240-1ebdd433652d}" symbol="1"/>
-          <rule filter="&quot;Year&quot;&lt;=2010 AND &quot;Year&quot;&lt;=2016" key="{f6c6231b-e7d8-4d49-9975-74ab79a83929}" symbol="2"/>
+          <rule filter=" &quot;Year&quot;  >= 2006 AND&#xd;&quot;Year&quot;  &lt;= 2011" key="{3bc1590c-e628-41d0-a240-1ebdd433652d}" symbol="1"/>
+          <rule filter="&quot;Year&quot;>=2012 AND &quot;Year&quot;&lt;=2016" key="{f6c6231b-e7d8-4d49-9975-74ab79a83929}" symbol="2"/>
           <rule filter="&quot;Year&quot; = 2017" key="{0dff6d58-4f85-4dd7-8e43-416a610582c8}" symbol="3"/>
         </rules>
         <symbols>
@@ -140,7 +146,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="161,195,105,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Cloud_Smile.svg"/>
+              <prop k="name" v="./Rainbow.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -149,7 +155,7 @@
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="10"/>
+              <prop k="size" v="20"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -160,7 +166,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="146,74,164,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Star.svg"/>
+              <prop k="name" v="./ShootingStar.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -169,29 +175,27 @@
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="10"/>
+              <prop k="size" v="18"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="2">
-            <layer pass="0" class="SimpleMarker" locked="0">
+            <layer pass="0" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="180,158,245,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
+              <prop k="name" v="./Candy.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
+              <prop k="size" v="18"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -211,7 +215,7 @@
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="15"/>
+              <prop k="size" v="20"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -391,6 +395,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -416,7 +421,7 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="Event" index="0" name=""/>
         <alias field="Location" index="1" name=""/>
@@ -443,10 +448,10 @@
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1270,14 +1275,14 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="209,209,209,255"/>
+              <prop k="color" v="234,240,237,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_color" v="202,215,207,255"/>
+              <prop k="outline_style" v="dot"/>
+              <prop k="outline_width" v="1"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>

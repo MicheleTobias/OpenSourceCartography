@@ -16,10 +16,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="Unicorn2.svg"
-   inkscape:export-filename="C:\Users\Michele\Documents\OpenSourceCartography\Talk\Unicorn.png"
-   inkscape:export-xdpi="100"
-   inkscape:export-ydpi="100">
+   sodipodi:docname="Unicorn.svg"
+   inkscape:export-filename="C:\Users\mmtobias\Documents\GitHub\OpenSourceCartography\Talk\Unicorn.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
   <defs
      id="defs2">
     <filter
@@ -81,7 +81,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

@@ -45,8 +45,8 @@ You should already have installed:
 
 Fork this repository to get the data using whatever tool you like.  **OR** if you're not set up for git, you can download a zip file of all the material by:
   1. Go to the [top of this GitHub repository](https://github.com/MicheleTobias/OpenSourceCartography)
-  1. Click on the big green "Clone or Download" button.
-  1. Pick the "Download ZIP" option, then save it where you want it.  Don't forget to unzip it.
+  1. Open the Data folder.
+  1. Save the datasets you would like to work with.
 
   
 ## Intro to Inkscape

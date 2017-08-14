@@ -6,13 +6,6 @@
 ## Description:
 Maps built in the map composer of any GIS program often have the signature look of their software of origin. With some help from graphic design software, maps can have the signature of their cartographer instead. Participants in this workshop will leave with a clear understanding of how to use Inkscape to refine static cartographic works started in QGIS. This workshop will give participants hands-on experience with the workflow presented at the 2016 FOSS4G North America meeting for using QGIS-generated SVG files in Inkscape, including how to build a basic map in QGIS, import it into Inkscape, and work with tools such as fonts, design elements, and alignment tools, to make a map that is truly their own style.
 
-## Data
-Data to use in this workshop: [FOSS4G Locations (GeoJSON)](https://github.com/MicheleTobias/OpenSourceCartography/blob/master/FOSS4G_Locations.geojson)
-
-Original source for FOSS4G location information: https://wiki.osgeo.org/wiki/FOSS4G
-
-Other potential data sources for your maps: [Michele's List of Data Sources](https://docs.google.com/spreadsheets/d/1964wpzdUZJElZ7xsF740BMiLcTtga82jEOnkHF7wyHU/edit?usp=sharing)
-
 ## Graphical Plan
 **Inkscape:** Make Map Symbols --> **QGIS:** Compose a Map --> **Inkscape:** Finishing, Design Work
 
@@ -43,12 +36,11 @@ You should already have installed:
 * QGIS (2.18)
 * Inkscape (0.92)
 
-Fork this repository to get the data using whatever tool you like.  **OR** if you're not set up for git, you can download a zip file of all the material by:
-  1. Go to the [top of this GitHub repository](https://github.com/MicheleTobias/OpenSourceCartography)
-  1. Open the Data folder.
-  1. Save the datasets you would like to work with.
+## Data
+Data to use in this workshop is in the [Data Folder](https://github.com/MicheleTobias/OpenSourceCartography/tree/master/Data)
 
-  
+Other potential data sources for your maps: [Michele's List of Data Sources](https://docs.google.com/spreadsheets/d/1964wpzdUZJElZ7xsF740BMiLcTtga82jEOnkHF7wyHU/edit?usp=sharing)
+
 ## Intro to Inkscape
 ### Demonstration: You Already Know This!
    1. Concept of vectors (points, lines, polygons) vs. rasters (images)

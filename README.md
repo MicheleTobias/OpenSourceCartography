@@ -124,7 +124,7 @@ Adjust the page size: In the File menu, click on Document Properties.  In the Cu
 Open QGIS
 
 ### Load Data
-Import the vector data you would like to work with. Use the [Data Source Manager](QGISTool_DataSourceManager.PNG) to import data:
+Import the vector data you would like to work with. Use the Data Source Manager ![Data Source Manager](/Images/QGISTool_DataSourceManager.PNG) to import data:
 * From this repository's [data folder](/Data): FOSS4G_Locations_2018.geojson (locations of all of the FOSS4G conferences) and either the FOSS4G_Lines_2018.geojson (straight lines between the conference locations) or FOSS4G_GreatCircles_2018.geojson (great circle lines between the locations). 
 * From the internet: [Natural Earth Country' 1:110m Cultural Admin-0 Country Boundaries](http://www.naturalearthdata.com/downloads/110m-cultural-vectors) and any other data you would like to add to your map (such as the Admin-1 States & Provinces Natural Earth data).
 

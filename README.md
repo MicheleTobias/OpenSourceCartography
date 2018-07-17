@@ -1,6 +1,6 @@
 **This workshop needs the following updates**
 - [ ] Review instructions with new software versions
-- [ ] Add print composter instructions
+- [ ] Add print composer instructions
 
 *****
 
@@ -155,18 +155,36 @@ Let's use the pin marker we made earlier as the marker for our point layer:
 
 You can also use SVG markers for lines.  The process is similar to what you just did with your point markers: make the SVG marker in Inkscape, load it into QGIS in the layer properties dialog, and set some parameters.  To save some time, I pre-made an SVG for you to try with your lines layer that looks like a single twist of rope.  You can use this to make your line look like string.
 1. Find the Rope_Segment.svg file in the [Pre-Made SVGs Folder](/Pre-Made_SVGs) of this repository.  You'll also see that there's a pin svg in case you want to see what my version looks like.  Alternatively, you can make your own rope segment in Inkscape using the skills you just learned with the Pen Tool and Node Editor to make a similar shape.  The key to success is to make sure the left and right side of the shape fit together well when the image is repeated next to each other.  It's fiddly so I made one for you.
-1. Open the Layer Properties dialog for the lines layer and go to the Style tab, just like before.
+1. Open the Layer Properties dialog for the lines layer and go to the Symbology tab, just like before.
 1. In the white box, click on the "Simple line" text.
 1. In the "Symbol layer type" drop-down menu, pick "Marker line".  Notice that you have a longer tree of layers in the white box.
 1. In the white box, click the "Simple marker" text.
 1. Change the "Symbol layer type" drop-down menu selection to "SVG marker".
 1. Similar to what we did before, use the "..." button to open the dialog to find and select your Rope_Segment.svg and click the "Open" button.  It may be hard to see since the rope segment colors are similar to the dialog box, but you should see what looks like a tan dashed line in the preview.
-1. Adjust the size of the segments in the "Size" parameter box.  For now, pick something like 4 milimeters to be able to see the segments.  They don't fit together yet, but we'll fix that next.
+1. Adjust the size of the segments in the "Size" parameter box.  I used a width of 4 milimeters to be able to see the segments.  They don't fit together yet, but we'll fix that next.
 1. Up at the top of the dialog, in the white box, click on the "Marker line" text.  The radio button next to "with interval" should be selected.  Change the spacing to make no space between the segments. 1.6 milimeters worked for me.  Apply these changes to the canvas with the "Apply" button.  If you like what you see, click "OK" to close the dialog, otherwise, make some more adjustments.  NOTE: A process similar to what we just did [can also be done in Inkscape](https://inkscapetutorials.org/2014/10/20/use-inkscape-to-draw-vector-rope-in-any-shape/), but it tends to work better on gentle curves.
 
 ![String Lines](/Images/QGIS_4_String.PNG)
 
+## Compose Your Map
+
 At this point, you'll want to get an idea of what your final map will look like.  I sometimes use a [Google Image](https://images.google.com) search to get some ideas.  For example, if you want to continue with the map pin board theme, try googling related keywords to see what kinds of map pin boards there are.  Do you want to label the locations?  Do you want lines for states and provinces?  Maybe you want some city names or graticule lines?  Get everything into the canvas you think you'll need for your final map.  It doesn't have to look nice at all yet, but unless you want to add it by hand later, you'll want to put it in now.
+
+Let's add labels to our points.  
+1. Open the layer properties for your point layer.
+1. Click on the "Labels" tab.  On the drop-down menu, select "Single Labels".
+1. If we just want to label the points with the conference name, from the "Label With" drop-down, chose "Event".  
+1. Click "Apply" to see what that looks like.
+
+Ok, that's good so far, but let's add the event location to the label as well.
+1. On the far right side of the "Label With" drop-down menu, click the Epsilon button (it looks like a script upper case E) to open the Expression Dialog.
+1. Delete any text in the expression box.
+1. To the right of the expression box, expand the "Fields & Values" list.
+1. Double click on "Event"  to add this field to the expression box.
+1. Because we are building a string, we will combine the elements of the string with the concatenation characters ||.  Click the || button above the expression box, then the new line ('\n') button, and || again - this adds a new line to our labels.
+1. Finally, add the "Location" field from the list of "Fields & Values" list, like before.
+1. The string you built should read: ` "Event"  ||'\n'||  "Location" `  If there is an error, the message will appear below the expression box.  Click Ok when you've finished building your query.
+1. In the Layer Properties dialog, adjust the font and font size to your liking, then click OK.
 
 Helpful Links:
 * [Multiline Labels in QGIS](https://anitagraser.com/2011/06/15/multi-line-labels-in-qgis/) from Anita Graser

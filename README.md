@@ -1,7 +1,14 @@
+**This workshop needs the following updates**
+- [ ] Review instructions with new software versions
+- [ ] Add print composter instructions
+
+*****
+
+
 # OpenSourceCartography
 
 # Workshop: 
-"Cartography with QGIS & Inkscape" presented at [FOSS4G 2017](http://2017.foss4g.org), Boston, MA, USA.
+"Cartography with QGIS & Inkscape" was originally developed for [FOSS4G 2017](http://2017.foss4g.org), Boston, MA, USA.  It has been updated for use at [FOSS4G 2018](http://2018.foss4g.org), Dar es Salaam, Tanzania, to make usre of QGIS 3 and the current version of Inkscape.
 
 ## Description:
 Maps built in the map composer of any GIS program often have the signature look of their software of origin. With some help from graphic design software, maps can have the signature of their cartographer instead. Participants in this workshop will leave with a clear understanding of how to use Inkscape to refine static cartographic works started in QGIS. This workshop will give participants hands-on experience with the workflow presented at the 2016 FOSS4G North America meeting for using QGIS-generated SVG files in Inkscape, including how to build a basic map in QGIS, import it into Inkscape, and work with tools such as fonts, design elements, and alignment tools, to make a map that is truly their own style.
@@ -14,7 +21,7 @@ Maps built in the map composer of any GIS program often have the signature look 
   
 1. Intro to Inkscape
    1. Demonstration: You Already Know This! 
-   1. Hands-On: Make a Pin Icon in Inkscape
+   1. Make Your Own Pin Icon in Inkscape
   
 2. Working in QGIS
    1. Use Custom SVG Markers
@@ -33,8 +40,8 @@ Maps built in the map composer of any GIS program often have the signature look 
    
 ## Getting Started
 You should already have installed:
-* QGIS (2.18)
-* Inkscape (0.92)
+* QGIS (3.2)
+* Inkscape (0.92.3)
 
 ## Data
 Data to use in this workshop is in the [Data Folder](https://github.com/MicheleTobias/OpenSourceCartography/tree/master/Data)
@@ -50,17 +57,17 @@ Other potential data sources for your maps: [Michele's List of Data Sources](htt
        1. Layers
        1. Fill & Stroke = Symbology
        
-### Hands-On: Make a Pin Icon in Inkscape
+### Make Your Own Pin Icon in Inkscape
 Let's learn to use Inkscape while making something we can use later: an icon to represent a point.  I'll walk you through how to make a map pin icon, but feel free to make your own version!  *Something to remember: SAVE OFTEN! Just like GIS, vector illustration programs can be a little unstable. Save every time you think you might want to.*
 
 Open Inkscape.  Let's learn a little about the interface.
 ![Inkscape Interface Tour](/Images/InkscapeTour.png)
 
-There are a lot of toolbars.  Here's a cheatsheet for the main ones:
+There are a lot of toolbars.  Here are some tools you might need:
 ![Toolbars Cheatsheet](/Images/Toolbars.png)
 I'll assume you can use this image to help you locate tools.  If I don't explain how to find a tool, use this image to help you find it in the interface.
 
-Draw a circle in the middle of your canvas using the Cirlce & Elipse tool. ![Circle Tool](/Images/Tool_Circle.PNG)  Hold down Ctrl while drawing your circle to make a perfect circle (instead of an elipse which is longer in one dimension).  Save.
+Draw a circle in the middle of your canvas using the Cirlce & Elipse tool: click on the ![Circle Tool](/Images/Tool_Circle.PNG) icon, then move your mouse onto the canvas.  Hold down Ctrl while drawing your circle to make a perfect circle (instead of an elipse which is longer in one dimension).  Save.
 
 ![Draw a Circle](/Images/Pin_1_Circle.png)
 
@@ -72,7 +79,7 @@ Now use the rectangle tool ![Rectangle Tool](/Images/Tool_Rectangle.PNG) to draw
 
 ![Add a Gray Rectangle](/Images/Pin_3_Rectangle.png)
 
-Before this will look like a pin at all, we need to do some arranging. Open the Align & Distribute dialog. ![Align Tool](/Images/Tool_Align.PNG) Select your circle with the Select tool, then hold down Shift and select the rectangle.  Now both the circle and rectangle are selected.  Change the drop-down in the Align dialog to "First Selected" and the click the button to "Center on Vertical Axis" (hover over the buttons to get a tool tip with the name of the buttons).  Now your rectangle should be in the middle of your circle.  Save.
+It doesn't look much like a pin yet because we need to arrange the shapes better. Open the Align & Distribute dialog. ![Align Tool](/Images/Tool_Align.PNG) Select your circle with the Select tool, then hold down Shift and select the rectangle.  Now both the circle and rectangle are selected.  Change the drop-down in the Align dialog to "First Selected" and the click the button to "Center on Vertical Axis" (hover over the buttons to get a tool tip with the name of the buttons).  Now your rectangle should be in the middle of your circle.  Save.
 
 ![Align objects](/Images/Pin_4_Align.png)
 
@@ -80,11 +87,13 @@ You'll probably want to move the rectangle so it's near the bottom of the circle
 
 ![Align objects](/Images/Pin_5_Move.png)
 
-Looking better!  But the rectangle should really be underneath the circle.  Select the rectangle.  On the left side above the canvas, you'll see that the tool bar has options to raise and lower items relative to each other.  Use "Lower Selection to Bottom" ![Send to Back Tool](/Images/Tool_SendToBack.PNG) to put the rectangle below the circle.  Now it's really starting to look like a pin!  Save.
+It's looking better!  But the rectangle should really be underneath the circle.  Select the rectangle.  On the left side above the canvas, you'll see that the tool bar has options to raise and lower items relative to each other.  Use "Lower Selection to Bottom" ![Send to Back Tool](/Images/Tool_SendToBack.PNG) to put the rectangle below the circle.  Now it's really starting to look like a pin!  Save.
 
 ![Change the order](/Images/Pin_6_Order.png)
 
-We could use our drawing just the way it is, but let's add a few more elements to make it look more realistic and to learn a few more tools.  First, let's give the pin's stem some dimension by rounding the end of the rectangle.  Select the rectangle and read the text at the bottom of the screen: "**Rectangle** in layer **Layer 1**."  This tells us that the type of object we've selected is a rectangle.  To edit the rectangle more than just changing it's size, we'll need to turn it into a Path.  With the rectangle selected, click the Path menu at the top of the screen and select "Object to Path".  Select the Node Editing tool ![Node Tool](/Images/Tool_Node.PNG), then click on the rectangle.  You should see that each corner now has a little diamond-shaped node.
+We could use our drawing just the way it is, but let's add a few more elements to make it look more realistic and to learn a few more tools.  First, let's give the pin's stem some dimension by rounding the end of the rectangle.  Select the rectangle and read the text at the bottom of the screen: "**Rectangle** in layer **Layer 1**."  This tells us that the type of object we've selected is a rectangle.  To edit the rectangle more than just changing it's size, we'll need to turn it into a Path.  With the rectangle selected, click the Path menu at the top of the screen and select "Object to Path".  Notice that the text at the bottom of the screen now tells us that our object is a "path" with 4 nodes.  
+
+Select the Node Editing tool ![Node Tool](/Images/Tool_Node.PNG), then click on the rectangle.  You should see that each corner now has a little diamond-shaped node.
 
 ![Nodes Active](/Images/Pin_7_NodesActive.PNG)
 
@@ -115,11 +124,11 @@ Adjust the page size: In the File menu, click on Document Properties.  In the Cu
 Open QGIS
 
 ### Load Data
-Import the vector data you would like to work with.  
-* From this repository's [data folder](/Data): FOSS4G_Locations.geojson (locations of all of the FOSS4G conferences) and either the FOSS4G_Lines.geojson (straight lines between the conference locations) or FOSS4G_GreatCircles.geojson (great circle lines between the locations). 
+Import the vector data you would like to work with. Use the [Data Source Manager](QGISTool_DataSourceManager.PNG) to import data:
+* From this repository's [data folder](/Data): FOSS4G_Locations_2018.geojson (locations of all of the FOSS4G conferences) and either the FOSS4G_Lines_2018.geojson (straight lines between the conference locations) or FOSS4G_GreatCircles_2018.geojson (great circle lines between the locations). 
 * From the internet: [Natural Earth Country' 1:110m Cultural Admin-0 Country Boundaries](http://www.naturalearthdata.com/downloads/110m-cultural-vectors) and any other data you would like to add to your map (such as the Admin-1 States & Provinces Natural Earth data).
 
-Order your layers with the countries on the bottom, then the lines, and points on top.  Save your work.
+Order your layers in the Layers panel so that the countries on the bottom, then the lines, and points on top.  Save your work.
 
 ![QGIS Layers Loaded](/Images/QGIS_1_LayersLoaded.PNG)
 

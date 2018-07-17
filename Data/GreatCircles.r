@@ -1,11 +1,11 @@
-setwd("C:\\Users\\mmtobias\\Documents\\Presentations\\FOSS4G 2017\\Data")
+setwd("C:\\Users\\mmtobias\\Documents\\Presentations\\FOSS4G 2018\\Data")
 
 library(geosphere)
 library(sp)
 library(rgdal)
 library(geojsonio)
 
-datafile<-"FOSS4G_Locations.txt"
+datafile<-"FOSS4G_Locations_2018.txt"
 
 fg<-read.delim(datafile)
 
@@ -23,4 +23,4 @@ for (i in 1:16){
   #all.lines<-SpatialLines(list(all.lines, one.line))
   }
 
-geojson_write(one.line, file="FOSS4G_GreatCircles.geojson", overwrite=TRUE, convert_wgs84 = TRUE)
+geojson_write(one.line, file="FOSS4G_GreatCircles_2018.geojson", overwrite=TRUE, convert_wgs84 = TRUE)

@@ -132,15 +132,21 @@ Order your layers in the Layers panel so that the countries on the bottom, then 
 
 ![QGIS Layers Loaded](/Images/QGIS_1_LayersLoaded.PNG)
 
+### Working with Standard Symbology
+
+Let's start by changing the colors of our country polygons layer.  
+1. In the Layers panel, right click on the courty polygon layer and select Properties from the menu.  
+1. In the Layer Properties windo, click on the Symbolgy tab on the left side.  We'll leave our polygons as "Single Symbol" for now, but you can look at all the options on the this drop down to see what the possibilities are.  
+1. In the box below, click the "Simple Fill" layer.  Pick a fill color and a stroke (outline) color.  Adjust the stroke width as well if you would like.
 
 ### Use Custom SVG Markers in QGIS
-I will assume you know how to change the colors of vector data in QGIS, so we won't go over that.  Instead, we'll focus on using custom SVG markers built in Inkscape.
 
-Let's use the pin marker we made earlier: 
-1. Open the layer properties for the point layer and click on the Style tab on the left side of the window.  
+Let's use the pin marker we made earlier as the marker for our point layer: 
+1. Open the layer properties for the point layer and click on the Symbology tab on the left side of the window.  
 1. In the main part of the properties window, you'll see that your point layer was set by default to a "simple marker".  Click on the "Simple Marker" text in the white box to access options for changing the marker type.  
-1. In the "Symbol layer type" drop down, select "SVG marker".  You will probably need to scroll down to see the SVG Groups and SVG Images section of the dialog.  Click the "..." button and navigate to where you saved your pin SVG file.  Select your file and click the "open" button.  (Alternatively you can put it in your User Symbols folder for QGIS to see it in the User Symbols SVG Group tree.)  The marker preview at the top of the window should have changed to a pin.  
-1. Click "Apply" to see how it looks on your map.  Adjust the size of your pin marker to any size you like.  You can always make adjustments later.  Click "OK" to exit the dialog.
+1. In the "Symbol layer type" drop down, select "SVG marker".  
+1. You will probably need to scroll down in the window to see the SVG Groups and SVG Images section of the dialog.  Click the "..." button and navigate to where you saved your pin SVG file.  Select your file and click the "open" button.  (Alternatively you can put it in your User Symbols folder for QGIS to see it in the User Symbols SVG Group tree.)  The marker preview at the top of the window should have changed to a pin.  
+1. Click "Apply" to see how it looks on your map.  Adjust the size of your pin marker to any size you like.  You can always make adjustments later.  In the size adjustment options, notice that if the "lock aspect ratio" lock image is closed, the aspect ration will be preserved.  If the image shows an open lock, you can make the image thinner or wider by changing the height or width independently.  Click "OK" to exit the dialog.
 1. Save your work.
 
 ![Point Marker Dialog](/Images/QGIS_2_PointMarkerDialog.PNG)

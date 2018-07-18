@@ -1,6 +1,6 @@
 **This workshop needs the following updates**
-- [ ] Review instructions with new software versions
-- [ ] Add print composer instructions
+- [ ] Review final Inkscape section
+- [ ] General copy editing
 
 *****
 

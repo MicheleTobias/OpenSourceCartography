@@ -184,16 +184,42 @@ Ok, that's good so far, but let's add the event location to the label as well.
 1. Because we are building a string, we will combine the elements of the string with the concatenation characters ||.  Click the || button above the expression box, then the new line ('\n') button, and || again - this adds a new line to our labels.
 1. Finally, add the "Location" field from the list of "Fields & Values" list, like before.
 1. The string you built should read: ` "Event"  ||'\n'||  "Location" `  If there is an error, the message will appear below the expression box.  Click Ok when you've finished building your query.
-1. In the Layer Properties dialog, adjust the font and font size to your liking, then click OK.
+1. In the Layer Properties dialog, adjust the font and font size to your liking.
+1. Let's make sure all our labels will show up in our map.  In the Labels tab of the Layer Properties dialog, cick on the Rendering option inside the long white box.  Check the box for "Show all labels for this layer (including colliding labels)".
+1. Explore any other options you would like to try.
+1. When you're finished making adjustments, click OK.
 
 Helpful Links:
 * [Multiline Labels in QGIS](https://anitagraser.com/2011/06/15/multi-line-labels-in-qgis/) from Anita Graser
 * [QGIS Training Manual Print Composer Tutorial](http://docs.qgis.org/2.14/en/docs/training_manual/map_composer/index.html)
 
-## Export SVG
-Using the Map Composer, create a layout that generally looks the way you want it to.  Set the extent and scale of the map to roughly what you anticipate needing for the final product.  When in doubt, pick a larger scale (more zoomed out) because we can always trim away extra, but we can't add it back easily in Inkscape later.
+![Labels Added](/Images/QGIS_5_Labels.PNG)
 
-![QGIS Print Composer](/Images/QGIS_5_MapComposer.PNG)
+## Compose Your Map
+We've added all the layers we need in our map and added labels for the point locations.  Now we need to compose a map.  We'll use the Map Composer to create a layout that generally looks the way you want it to.  
+
+First, we have to make a new layout to work with:
+1. Click on the Project menu at the upper left corner of the QGIS window, then select New Print Layout.
+1. In the Create Print Layout Title window, enter a title for your layout in the box.  I'll use "FOSS4G Map" so I'll remember later what my map layout was for.  Click OK.
+
+Now we can compose our map. 
+1. Add your map to the page: from the Add Item menu, select Add Map to enable the Add Map Tool.
+1. While clicking on the page, drag your mouse across the page to add the map.
+1. To resize the map box, use the Select/Move Item (it looks like white arrow), then drag the resizing handles.
+
+Now we have a map, but the scale probably needs to be adjusted.
+1. Select the map item using the Select/Move Item tool.
+1. On the right side of the window, click on the Item Properties tab.
+1. Adjust the number in the Scale box to zoom in or out of your map data.  Smaller numbers zoom in; larger numbers zoom out.  Set the extent and scale of the map to roughly what you anticipate needing for the final product.  When in doubt, pick a larger scale (more zoomed out) because we can always trim away extra, but we can't add it back easily in Inkscape later.  
+1. You can pan the map data using the Move Item Conent tool - it looks like a  curled page with blue arrows on it.
+
+All items you add to your map composition have properties, just like this map item.  If you add a scale bar or a legend, for example, you can change their appearance by selecting them and making changes to the Item Properties.
+
+At this point, you should have a map composition that has all the data (probably the country boundaries and the point locations, and perhaps the lines) and labels you want in your final map as well as any other items you want to add.  It does not matter if your labels run off the page or collide with eachother, but make sure they are all showing.    
+
+![QGIS Print Composer](/Images/QGIS_6_MapComposer.PNG)
+
+## Export SVG
 
 When you've got the layout generally how you want it, click the "Export to SVG" button.  ![Export to SVG Button](/Images/Tool_ExportToSVG.PNG) Ignore the warning.  (You'll see what the warning is talking about soon, but it's not really a problem... and perhaps it's even a feature once you know how to deal with it.)  Navigate to where you want to save your file, name it, and click the "Save" button.  Uncheck "Export map layers as groups" and "Render map labels as outlines", then click "Save".  
 

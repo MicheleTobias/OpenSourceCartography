@@ -1,10 +1,3 @@
-**This workshop needs the following updates**
-- [ ] Review final Inkscape section
-- [ ] General copy editing
-
-*****
-
-
 # OpenSourceCartography
 
 # Workshop: 

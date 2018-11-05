@@ -1,7 +1,7 @@
 # OpenSourceCartography
 
 # Workshop: 
-"Cartography with QGIS & Inkscape" was originally developed for [FOSS4G 2017](http://2017.foss4g.org), Boston, MA, USA.  It has been updated for use at [FOSS4G 2018](http://2018.foss4g.org), Dar es Salaam, Tanzania, to make usre of QGIS 3 and the current version of Inkscape.
+"Cartography with QGIS & Inkscape" was originally developed for [FOSS4G 2017](http://2017.foss4g.org), Boston, MA, USA.  It has been updated, for use at [FOSS4G 2018](http://2018.foss4g.org), Dar es Salaam, Tanzania, to use QGIS 3 and the current version of Inkscape (0.92).
 
 ## Description:
 Maps built in the map composer of any GIS program often have the signature look of their software of origin. With some help from graphic design software, maps can have the signature of their cartographer instead. Participants in this workshop will leave with a clear understanding of how to use Inkscape to refine static cartographic works started in QGIS. This workshop will give participants hands-on experience with the workflow presented at the 2016 FOSS4G North America meeting for using QGIS-generated SVG files in Inkscape, including how to build a basic map in QGIS, import it into Inkscape, and work with tools such as fonts, design elements, and alignment tools, to make a map that is truly their own style.
